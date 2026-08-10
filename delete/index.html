@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>在途 EnRoute — 刪除帳戶及資料</title>
+<meta name="description" content="在途 EnRoute 香港巴士到站時間應用程式：如何刪除帳戶及相關資料。">
+<style>
+  :root {
+    --brand: #4F46E5;
+    --ink: #1F2933;
+    --ink-medium: #52606D;
+    --border: #E4E7EB;
+    --canvas: #F7F8FA;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 20px 64px;
+    background: var(--canvas);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang HK",
+      "Noto Sans HK", "Microsoft JhengHei", sans-serif;
+    line-height: 1.7;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  header {
+    margin: 0 -20px 32px;
+    padding: 40px 20px 32px;
+    background: linear-gradient(135deg, #4F46E5, #0E7490);
+    color: #fff;
+  }
+  header div { max-width: 760px; margin: 0 auto; }
+  h1 { margin: 0 0 8px; font-size: 28px; }
+  header p { margin: 0; opacity: .9; font-size: 14px; }
+  h2 {
+    margin: 40px 0 12px;
+    font-size: 20px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--brand);
+  }
+  p, li { color: var(--ink-medium); }
+  strong { color: var(--ink); }
+  ol li, ul li { margin: 6px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+  th, td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; }
+  th { background: #EEF2FF; color: var(--ink); }
+  .summary {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--brand);
+    border-radius: 10px;
+    padding: 16px 18px;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-size: 14px;
+    color: var(--ink-medium);
+  }
+</style>
+</head>
+<body>
+<header><div>
+  <h1>刪除帳戶及資料</h1>
+  <p>應用程式：《在途》EnRoute — 香港巴士到站時間 ‧ 開發者：Soren Cheung</p>
+</div></header>
 
+<main>
+  <div class="summary">
+    <p><strong>《在途》EnRoute 不設傳統帳戶。</strong>應用程式只會為裝置建立一個匿名識別碼；
+    你可以隨時在應用程式內自行刪除全部資料，亦可以電郵要求我們刪除伺服器上的資料。</p>
+  </div>
+
+  <h2>方法一：在應用程式內自行刪除（即時生效）</h2>
+  <ol>
+    <li>開啟《在途》EnRoute。</li>
+    <li>前往「調字軌」分頁 → 逐一開啟自己發佈的交換帖 → 選「刪除」，移除所有交換帖內容。</li>
+    <li>在同一畫面選「<strong>刪除驗證</strong>」，清除職員驗證狀態及伺服器上的驗證記錄。</li>
+    <li>如曾以 Google 或 Apple 登入，選「<strong>登出／解除連結</strong>」。</li>
+    <li>最後在手機系統設定 →「應用程式」→《在途》EnRoute →「儲存空間」→「<strong>清除資料</strong>」，
+        或直接解除安裝應用程式，即可移除裝置上所有本機資料。</li>
+  </ol>
+
+  <h2>方法二：電郵要求刪除</h2>
+  <p>如無法使用應用程式，可電郵至
+    <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a>，
+    主旨註明「刪除帳戶」，並附上應用程式內顯示的<strong>識別代號</strong>
+    （「調字軌」分頁上方顯示的短代號），以便我們找出對應記錄。
+    我們會在收到要求後 <strong>30 日內</strong>完成刪除並以電郵回覆確認。</p>
+
+  <h2>會刪除甚麼</h2>
+  <table>
+    <tr><th>資料</th><th>處理</th></tr>
+    <tr><td>匿名識別碼及登入連結</td><td>刪除</td></tr>
+    <tr><td>職員驗證記錄及職員編號索引（單向雜湊值）</td><td>刪除</td></tr>
+    <tr><td>字軌交換帖內容及聯絡資料</td><td>刪除</td></tr>
+    <tr><td>對他人帖子的舉報記錄</td><td>刪除</td></tr>
+    <tr><td>出勤記錄、職員證相片、自拍相片</td><td>只保存於裝置，從未上載；清除應用程式資料或解除安裝即消失</td></tr>
+    <tr><td>位置資料</td><td>只在裝置上即時使用，從未上載，無需刪除</td></tr>
+  </table>
+
+  <h2>保留期</h2>
+  <p>刪除後資料會即時從我們的資料庫移除，服務供應商（Google Firebase）的加密備份最長
+    保留 <strong>30 日</strong>，之後自動覆寫。我們不會保留任何額外副本，亦不會出售任何資料。</p>
+
+  <h2>聯絡方式</h2>
+  <p>如對刪除程序有疑問，請電郵
+    <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a>。</p>
+
+  <footer>
+    <p>另見<a href="../">隱私政策</a>。</p>
+  </footer>
+</main>
+</body>
+</html>
