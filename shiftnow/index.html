@@ -1,39 +1,56 @@
-瞬更 ShiftNow 私隱政策
-
-最後更新：2026-09-09
-
-我們收集什麼
-
-瞬更不設帳戶、不需登入，亦不收集姓名、電話、電郵、位置或聯絡人。 你匯入或掃描的行程表（PDF 原檔、原頁圖、崗位索引）只儲存在這部手機的私有儲存空間，不會上傳到任何伺服器。
-
-文字辨識
-
-崗位號主要由手機內的 ML Kit 離線辨識。整頁行程表、行程內容、開工收工時間及任何個人資料一律不會上傳。
-
-與其他車長交換行程頁
-
-「幫人／請人」功能會把你持有的崗位以不可逆的雜湊值（hash）連同一個隨機假名 id 放到 Firebase 即時資料庫，讓其他車長找到你；資料庫內沒有任何路線名、崗位號原文或行程內容。
-
-行程頁只在你按下「發送」後，以端對端加密（X25519 ＋ AES-256-GCM）直接傳給對方；若對方不在線，密文會暫存於加密郵筒，對方收到即刪，並於到期後自動清除。伺服器無法解讀內容。
-
-備份
-
-「備份／還原」產生的 .shiftnow 檔以你自訂的密碼加密（PBKDF2 ＋ AES-256-GCM），儲存到你選擇的位置；密碼不會被儲存或傳送，遺失密碼即無法還原。
-
-錯誤記錄與問題回報
-
-本機會保留一份有容量上限的錯誤記錄，只含錯誤訊息與程式位置，不含行程內容。只有當你在「回報問題」按下傳送時，才會把已遮蔽（崗位號、路線資料夾、辨識 key、id 全部代替）的診斷文字交給你選擇的 App 傳出；沒有任何自動上傳或第三方分析工具。
-
-廣告
-
-瞬更以 Google AdMob 顯示廣告（原生廣告卡及獎勵式插頁廣告）。Google 可能會收集裝置廣告識別碼（Android 廣告 ID／iOS IDFA）、IP 地址及粗略位置等資料以投放及量度廣告；在歐洲經濟區、英國及瑞士會先徵求你的同意，在 iOS 會先詢問是否允許追蹤，未同意時只顯示非個人化廣告。詳情請參閱 Google 私隱政策：https://policies.google.com/privacy 及 Google 廣告技術合作夥伴：https://support.google.com/admob/answer/9012903 。你可隨時於裝置設定重設廣告 ID 或關閉個人化廣告。
-
-刪除資料
-
-本機資料：首頁三點選單「清除全部行程表」，或「私隱政策與資料刪除」頁的「刪除本機全部資料」，會刪走所有完整表、收到的行程、原頁圖及卡片，並即時生效；移除 App 亦會一併刪除。
-雲端索引：「刪除我的雲端資料」會清走你的假名 id 在資料庫的持有標籤、在線心跳、辨識用量及郵筒；下次開啟 App 時如仍持有完整表，索引會重新上載。
-權限
-
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>瞬更 ShiftNow — 私隱政策</title>
+<meta name="description" content="瞬更 ShiftNow 行程表應用程式的私隱政策：不設帳戶、行程表只存於裝置、交換行程頁端對端加密。">
+<style>
+  :root { --brand:#0F766E; --ink:#1F2933; --muted:#52606D; --border:#E4E7EB; --canvas:#F7F8FA; --surface:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --brand:#5EEAD4; --ink:#E6EAF2; --muted:#A8B2C4; --border:#38414F; --canvas:#0C0F15; --surface:#161B24; } }
+  body { margin:0; background:var(--canvas); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC","PingFang HK",sans-serif; line-height:1.7; }
+  main { max-width:760px; margin:0 auto; padding:24px 20px 48px; background:var(--surface); }
+  h1 { color:var(--brand); font-size:1.7rem; } h2 { margin-top:2em; border-bottom:1px solid var(--border); padding-bottom:.3em; font-size:1.2rem; }
+  a { color:var(--brand); } li { margin:.3em 0; } p,li { color:var(--ink); }
+  table { border-collapse:collapse; width:100%; } td,th { border:1px solid var(--border); padding:6px 10px; text-align:left; }
+</style>
+</head>
+<body>
+<main>
+<h1>瞬更 ShiftNow 私隱政策</h1>
+<p>最後更新：2026-09-09</p>
+<h2>我們收集什麼</h2>
+<p>瞬更不設帳戶、不需登入，亦不收集姓名、電話、電郵、位置或聯絡人。
+你匯入或掃描的行程表（PDF 原檔、原頁圖、崗位索引）只儲存在這部手機的私有儲存空間，不會上傳到任何伺服器。</p>
+<h2>文字辨識</h2>
+<p>崗位號主要由手機內的 ML Kit 離線辨識。整頁行程表、行程內容、開工收工時間及任何個人資料一律不會上傳。</p>
+<h2>與其他車長交換行程頁</h2>
+<p>「幫人／請人」功能會把你持有的崗位以不可逆的雜湊值（hash）連同一個隨機假名 id 放到 Firebase 即時資料庫，讓其他車長找到你；資料庫內沒有任何路線名、崗位號原文或行程內容。</p>
+<p>行程頁只在你按下「發送」後，以端對端加密（X25519 ＋ AES-256-GCM）直接傳給對方；若對方不在線，密文會暫存於加密郵筒，對方收到即刪，並於到期後自動清除。伺服器無法解讀內容。</p>
+<h2>備份</h2>
+<p>「備份／還原」產生的 .shiftnow 檔以你自訂的密碼加密（PBKDF2 ＋ AES-256-GCM），儲存到你選擇的位置；密碼不會被儲存或傳送，遺失密碼即無法還原。</p>
+<h2>錯誤記錄與問題回報</h2>
+<p>本機會保留一份有容量上限的錯誤記錄，只含錯誤訊息與程式位置，不含行程內容。只有當你在「回報問題」按下傳送時，才會把已遮蔽（崗位號、路線資料夾、辨識 key、id 全部代替）的診斷文字交給你選擇的 App 傳出；沒有任何自動上傳或第三方分析工具。</p>
+<h2>廣告</h2>
+<p>瞬更以 Google AdMob 顯示廣告（原生廣告卡及獎勵式插頁廣告）。Google 可能會收集裝置廣告識別碼（Android 廣告 ID／iOS IDFA）、IP 地址及粗略位置等資料以投放及量度廣告；在歐洲經濟區、英國及瑞士會先徵求你的同意，在 iOS 會先詢問是否允許追蹤，未同意時只顯示非個人化廣告。詳情請參閱 Google 私隱政策：https://policies.google.com/privacy 及 Google 廣告技術合作夥伴：https://support.google.com/admob/answer/9012903 。你可隨時於裝置設定重設廣告 ID 或關閉個人化廣告。</p>
+<h2>刪除資料</h2>
+<ul>
+<li>本機資料：首頁三點選單「清除全部行程表」，或「私隱政策與資料刪除」頁的「刪除本機全部資料」，會刪走所有完整表、收到的行程、原頁圖及卡片，並即時生效；移除 App 亦會一併刪除。</li>
+<li>雲端索引：「刪除我的雲端資料」會清走你的假名 id 在資料庫的持有標籤、在線心跳、辨識用量及郵筒；下次開啟 App 時如仍持有完整表，索引會重新上載。</li>
+</ul>
+<h2>權限</h2>
+<ul>
+<li>相機：只在你掃描行程表時使用。</li>
+<li>檔案／相片：只在你選擇 PDF 或備份檔時讀取。</li>
+<li>通知：提示收到的行程與請求。</li>
+<li>網絡：只用於雲端索引、加密傳送。</li>
+</ul>
+<h2>聯絡</h2>
+<p>如對私隱有疑問或需協助刪除資料，請使用 App 內三點選單「回報問題」與開發者聯絡。</p>
+<p style="color:var(--muted);font-size:.9rem;margin-top:3em">Android 套件名稱：com.enroute.rosterlookup</p>
+</main>
+</body>
+</html>
 相機：只在你掃描行程表時使用。
 檔案／相片：只在你選擇 PDF 或備份檔時讀取。
 通知：提示收到的行程與請求。
