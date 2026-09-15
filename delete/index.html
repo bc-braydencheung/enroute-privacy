@@ -12,6 +12,21 @@
     --ink-medium: #52606D;
     --border: #E4E7EB;
     --canvas: #F7F8FA;
+    --surface: #FFFFFF;
+    --th-bg: #EEF2FF;
+  }
+  @media (prefers-color-scheme: dark) {
+    /* 深色模式：深板岩底色――不用純黑――配淺藍灰字，同 App 内深色主題一致。 */
+    :root {
+      --brand: #93A4FF;
+      --ink: #E6EAF2;
+      --ink-medium: #A8B2C4;
+      --border: #38414F;
+      --canvas: #0C0F15;
+      --surface: #161B24;
+      --th-bg: #1B2534;
+    }
+    header { background: linear-gradient(135deg, #2A2F6B, #0B3F4C); }
   }
   * { box-sizing: border-box; }
   body {
@@ -44,9 +59,9 @@
   ol li, ul li { margin: 6px 0; }
   table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
   th, td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; }
-  th { background: #EEF2FF; color: var(--ink); }
+  th { background: var(--th-bg); color: var(--ink); }
   .summary {
-    background: #fff;
+    background: var(--surface);
     border: 1px solid var(--border);
     border-left: 4px solid var(--brand);
     border-radius: 10px;
@@ -69,35 +84,35 @@
 
 <main>
   <div class="summary">
-    <p><strong>《在途》EnRoute 不設傳統帳戶。</strong>應用程式只會為裝置建立一個匿名識別碼；
+    <p><strong>《在途》EnRoute 只在使用字軌交換板時才需要帳戶</strong>（Google 或 Apple 登入）；其餘功能只會為裝置建立一個匿名識別碼。
     你可以隨時在應用程式內自行刪除全部資料，亦可以電郵要求我們刪除伺服器上的資料。</p>
   </div>
 
   <h2>方法一：在應用程式內自行刪除（即時生效）</h2>
   <ol>
-    <li>開啟《在途》EnRoute。</li>
-    <li>前往「調字軌」分頁 → 逐一開啟自己發佈的交換帖 → 選「刪除」，移除所有交換帖內容。</li>
-    <li>在同一畫面選「<strong>刪除驗證</strong>」，清除職員驗證狀態及伺服器上的驗證記錄。</li>
-    <li>如曾以 Google 或 Apple 登入，選「<strong>登出／解除連結</strong>」。</li>
-    <li>最後在手機系統設定 →「應用程式」→《在途》EnRoute →「儲存空間」→「<strong>清除資料</strong>」，
-        或直接解除安裝應用程式，即可移除裝置上所有本機資料。</li>
+    <li>開啟《在途》EnRoute，如曾以 Google／Apple／電話登入，請確保目前已登入該帳戶（「調字軌」分頁右上角）。</li>
+    <li>前往 ⋮ 選單 →「私隱政策」→ 頁底「<strong>刪除帳戶及雲端資料</strong>」（或在「調字軌」分頁按「登出」，視窗內選「刪除帳戶」）。</li>
+    <li>輸入「刪除」確認。應用程式會即時刪除你的登入帳戶、所有交換帖（包括 WhatsApp 號碼）、出勤記錄雲端副本及登入 session，並改用新的匿名身份。</li>
+    <li>裝置上的出勤相片及本機記錄可在手機系統設定 →「應用程式」→《在途》EnRoute →「儲存空間」→「<strong>清除資料</strong>」移除，或直接解除安裝應用程式。</li>
   </ol>
+  <p>如 Firebase 提示需要重新登入（帳戶太久未登入），請登出後重新登入再操作一次。</p>
 
   <h2>方法二：電郵要求刪除</h2>
   <p>如無法使用應用程式，可電郵至
-    <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a>，
+    <a href="mailto:bc.braydencheung@gmail.com">bc.braydencheung@gmail.com</a>，
     主旨註明「刪除帳戶」，並附上應用程式內顯示的<strong>識別代號</strong>
-    （「調字軌」分頁上方顯示的短代號），以便我們找出對應記錄。
+    （「調字軌」交換板標題顯示的 16 位 ID），以便我們找出對應記錄。
     我們會在收到要求後 <strong>30 日內</strong>完成刪除並以電郵回覆確認。</p>
 
   <h2>會刪除甚麼</h2>
   <table>
     <tr><th>資料</th><th>處理</th></tr>
-    <tr><td>匿名識別碼及登入連結</td><td>刪除</td></tr>
-    <tr><td>職員驗證記錄及職員編號索引（單向雜湊值）</td><td>刪除</td></tr>
-    <tr><td>字軌交換帖內容及聯絡資料</td><td>刪除</td></tr>
-    <tr><td>對他人帖子的舉報記錄</td><td>刪除</td></tr>
-    <tr><td>出勤記錄、職員證相片、自拍相片</td><td>只保存於裝置，從未上載；清除應用程式資料或解除安裝即消失</td></tr>
+    <tr><td>登入帳戶（Google／Apple／電話連結）及帳戶識別碼</td><td>刪除</td></tr>
+    <tr><td>字軌交換帖內容及聯絡資料（WhatsApp 號碼）</td><td>刪除</td></tr>
+    <tr><td>出勤記錄雲端文字副本、登入 session 記錄</td><td>刪除</td></tr>
+    <tr><td>對他人帖子的舉報記錄</td><td>只含帳戶識別碼；帳戶刪除後無法對應任何人，並隨相關帖文一日後自動清除</td></tr>
+    <tr><td>裝置與帳戶的綁定紀錄（單向雜湊值）、因濫用被封鎖的記錄</td><td>保留（不含可識別身份資料），用於維持「一機一帳戶」及防止被封鎖者刪戶後重新註冊；換機、賣機可電郵要求解除綁定</td></tr>
+    <tr><td>出勤相片</td><td>只保存於裝置，從未上載；清除應用程式資料或解除安裝即消失</td></tr>
     <tr><td>位置資料</td><td>只在裝置上即時使用，從未上載，無需刪除</td></tr>
   </table>
 
@@ -107,10 +122,10 @@
 
   <h2>聯絡方式</h2>
   <p>如對刪除程序有疑問，請電郵
-    <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a>。</p>
+    <a href="mailto:bc.braydencheung@gmail.com">bc.braydencheung@gmail.com</a>。</p>
 
   <footer>
-    <p>另見<a href="../">隱私政策</a>。</p>
+    <p>另見<a href="../">私隱政策</a>。</p>
   </footer>
 </main>
 </body>
