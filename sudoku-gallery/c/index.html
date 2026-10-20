@@ -43,6 +43,7 @@
   document.title = t('九宮畫境 — 好友挑戰', 'Sudoku Gallery — Friend Challenge');
   $('title').textContent = t('九宮畫境・好友挑戰', 'Sudoku Gallery · Friend Challenge');
   $('copy').textContent = t('複製挑戰碼', 'Copy challenge code');
+  $('open').textContent = t('用九宮畫境打開', 'Open in Sudoku Gallery');
   if (!/^JGT1\.[A-Za-z0-9_-]+$/.test(code)) {
     $('what').textContent = t('呢條連結唔完整，請叫朋友再傳一次。', 'This link is incomplete. Ask your friend to send it again.');
     $('open').href = play;
@@ -64,7 +65,7 @@
   var ms = (j.ms || 0) + (j.h || 0) * 30000;
   $('what').textContent = t('朋友解咗一題 ', 'Your friend solved a ') + what + t('，等你嚟挑戰！', ' puzzle. Your turn!');
   $('score').textContent = fmt(ms);
-  $('detail').textContent = t('用時 ' + fmt(j.ms || 0) + '・提示 ' + (j.h || 0) + ' 次（每次加 30 秒）', 'Time ' + fmt(j.ms || 0) + ' · ' + (j.h || 0) + ' hints (+30 s each)');
+  $('detail').textContent = t('用時 ' + fmt(j.ms || 0) + '・提示 ' + (j.h || 0) + ' 次（每次加 30 秒）', 'Time ' + fmt(j.ms || 0) + ' · ' + (j.h || 0) + ((j.h || 0) === 1 ? ' hint' : ' hints') + ' (+30 s each)');
   var android = /Android/i.test(navigator.userAgent);
   var intent = 'intent://c/' + code + '#Intent;scheme=sudokugallery;package=com.soren.sudoku_gallery;S.browser_fallback_url=' + encodeURIComponent(play) + ';end';
   $('open').href = android ? intent : play;
