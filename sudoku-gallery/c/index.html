@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>九宮畫境 — 好友挑戰</title>
+<style>
+  :root { --brand:#9A6B1E; --ink:#1F2933; --muted:#52606D; --border:#E4E7EB; --canvas:#F7F3EC; --surface:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --brand:#E0B45E; --ink:#E6EAF2; --muted:#A8B2C4; --border:#38414F; --canvas:#0C0F15; --surface:#161B24; } }
+  body { margin:0; background:var(--canvas); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC","PingFang HK",sans-serif; line-height:1.6; overflow-wrap:anywhere; }
+  main { max-width:520px; margin:0 auto; padding:32px 20px 48px; text-align:center; }
+  .card { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:24px 20px; }
+  h1 { color:var(--brand); font-size:1.6rem; margin:.2em 0; }
+  .score { font-size:2.2rem; font-weight:700; margin:.2em 0; }
+  .muted { color:var(--muted); font-size:.95rem; }
+  .btn { display:block; margin:18px auto 0; padding:14px 18px; border-radius:999px; background:var(--brand); color:#fff; font-size:1.1rem; font-weight:700; text-decoration:none; border:0; width:100%; box-sizing:border-box; cursor:pointer; }
+  .btn.alt { background:transparent; color:var(--brand); border:1.5px solid var(--brand); font-size:1rem; }
+  code { display:block; margin-top:12px; padding:10px; background:var(--canvas); border-radius:10px; font-size:.8rem; word-break:break-all; text-align:left; }
+</style>
+</head>
+<body>
+<main>
+<div class="card">
+  <h1 id="title">九宮畫境・好友挑戰</h1>
+  <p id="what" class="muted"></p>
+  <p class="score" id="score"></p>
+  <p id="detail" class="muted"></p>
+  <a class="btn" id="open" href="#">用九宮畫境打開</a>
+  <button class="btn alt" id="copy" type="button">複製挑戰碼</button>
+  <p id="hint" class="muted" style="margin-top:14px"></p>
+  <code id="code"></code>
+</div>
+</main>
+<script>
+(function () {
+  var en = !/^zh/i.test(navigator.language || '');
+  var t = function (zh, e) { return en ? e : zh; };
+  var play = 'https://play.google.com/store/apps/details?id=com.soren.sudoku_gallery';
+  var code = decodeURIComponent((location.hash || '').slice(1));
+  var $ = function (id) { return document.getElementById(id); };
+  document.documentElement.lang = en ? 'en' : 'zh-Hant-HK';
+  document.title = t('九宮畫境 — 好友挑戰', 'Sudoku Gallery — Friend Challenge');
+  $('title').textContent = t('九宮畫境・好友挑戰', 'Sudoku Gallery · Friend Challenge');
+  $('copy').textContent = t('複製挑戰碼', 'Copy challenge code');
+  if (!/^JGT1\.[A-Za-z0-9_-]+$/.test(code)) {
+    $('what').textContent = t('呢條連結唔完整，請叫朋友再傳一次。', 'This link is incomplete. Ask your friend to send it again.');
+    $('open').href = play;
+    $('open').textContent = t('去 Play 商店睇九宮畫境', 'Get Sudoku Gallery on Google Play');
+    $('copy').style.display = 'none';
+    $('code').style.display = 'none';
+    return;
+  }
+  var j = {};
+  try {
+    var b = code.slice(5).replace(/-/g, '+').replace(/_/g, '/');
+    while (b.length % 4) b += '=';
+    j = JSON.parse(decodeURIComponent(escape(atob(b))));
+  } catch (e) {}
+  var zhV = ['經典', '對角線', '窗口', '奇偶', '殺手', '箭頭'], enV = ['Classic', 'Diagonal', 'Windows', 'Odd-Even', 'Killer', 'Arrow'];
+  var zhL = ['入門', '輕鬆', '中級', '進階', '大師'], enL = ['Beginner', 'Easy', 'Medium', 'Hard', 'Master'];
+  var fmt = function (ms) { var s = Math.floor(ms / 1000); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); };
+  var what = j.w ? t('戰役關卡', 'Campaign level') : ((en ? enV : zhV)[j.v] || '') + ' · ' + ((en ? enL : zhL)[(j.l || 1) - 1] || '');
+  var ms = (j.ms || 0) + (j.h || 0) * 30000;
+  $('what').textContent = t('朋友解咗一題 ', 'Your friend solved a ') + what + t('，等你嚟挑戰！', ' puzzle. Your turn!');
+  $('score').textContent = fmt(ms);
+  $('detail').textContent = t('用時 ' + fmt(j.ms || 0) + '・提示 ' + (j.h || 0) + ' 次（每次加 30 秒）', 'Time ' + fmt(j.ms || 0) + ' · ' + (j.h || 0) + ' hints (+30 s each)');
+  var android = /Android/i.test(navigator.userAgent);
+  var intent = 'intent://c/' + code + '#Intent;scheme=sudokugallery;package=com.soren.sudoku_gallery;S.browser_fallback_url=' + encodeURIComponent(play) + ';end';
+  $('open').href = android ? intent : play;
+  $('hint').textContent = android
+    ? t('未裝九宮畫境會轉去 Play 商店。如果打唔開，可以複製挑戰碼，喺 app 嘅「排行榜 › 好友挑戰」貼上。', 'Without the app you will be taken to Google Play. If it does not open, copy the code and paste it in the app under Leaderboards › Friends.')
+    : t('九宮畫境係 Android app，請用 Android 手機打開呢條連結。', 'Sudoku Gallery is an Android app. Open this link on an Android phone.');
+  $('code').textContent = code;
+  $('copy').onclick = function () {
+    var done = function () { $('copy').textContent = t('已複製', 'Copied'); };
+    if (navigator.clipboard) navigator.clipboard.writeText(code).then(done, function () {});
+  };
+})();
+</script>
+</body>
+</html>
