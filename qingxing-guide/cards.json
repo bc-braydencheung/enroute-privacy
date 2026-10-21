@@ -1,0 +1,2579 @@
+{
+ "version": 2,
+ "cards": [
+  {
+   "id": "h01",
+   "cat": "health",
+   "img": "antibiotic",
+   "myth": "感冒食抗生素會好得快啲。",
+   "impact": "傷風感冒醫唔到，反而可能有作嘔、肚瀉、敏感等副作用，仲會令細菌更快產生耐藥性。下次真係細菌感染，藥可能已經唔再有效。",
+   "truth": "抗生素只對細菌有效。傷風、流感係病毒感染，食抗生素唔會好得快啲。應該多休息、多飲水，唔好主動問醫生攞抗生素；醫生真係開咗，就要食完成個療程。",
+   "src": "衞生防護中心〈睇醫生 問清楚 抗生素 咪食錯〉",
+   "url": "https://www.chp.gov.hk/tc/resources/e_health_topics/2760.html",
+   "level": "已證實",
+   "fact": "抗生素只對細菌有效，醫唔到傷風感冒。",
+   "tags": [
+    "抗生素",
+    "感冒",
+    "耐藥性"
+   ]
+  },
+  {
+   "id": "h02",
+   "cat": "health",
+   "img": "vaccine",
+   "myth": "打流感針會令你中流感。",
+   "impact": "有人因此唔打針，結果真係中咗流感，長者、小朋友同長期病患者更容易有肺炎等併發症，要入院。",
+   "truth": "衞生防護中心講明：注射式嘅滅活疫苗入面冇活病毒，所以唔會引致流感。打完可能有手痛、輕微發燒，通常一兩日就冇事，唔係「中咗流感」。",
+   "src": "衞生防護中心〈2023/24 季節性流感疫苗接種計劃簡介〉",
+   "url": "https://www.chp.gov.hk/files/pdf/briefing_ss_202324.pdf",
+   "level": "已證實",
+   "fact": "注射式滅活流感疫苗冇活病毒，唔會引致流感。",
+   "tags": [
+    "疫苗",
+    "流感"
+   ]
+  },
+  {
+   "id": "h03",
+   "cat": "health",
+   "img": "firstaid",
+   "myth": "流鼻血要擰高頭。",
+   "impact": "擰高頭只係令血流落喉嚨，睇落好似止咗，其實冇；血吞落肚可能令人作嘔、嘔吐，甚至嗆親。",
+   "truth": "應該坐低，頭微微向前傾，用拇指同食指捏住鼻翼（鼻樑下面軟嘅位置）大約 10 分鐘。唔好用紙巾塞鼻。止唔到或者成日流，就要睇醫生。",
+   "src": "中華醫學會〈鼻出血時仰頭、塞衞生紙止血，這樣做對嗎？〉",
+   "url": "https://www.cma.org.cn/art/2023/3/27/art_4584_50095.html",
+   "level": "已證實",
+   "fact": "流鼻血應該頭向前傾，捏住鼻翼約 10 分鐘。",
+   "tags": [
+    "急救",
+    "流鼻血"
+   ]
+  },
+  {
+   "id": "h04",
+   "cat": "health",
+   "img": "firstaid",
+   "myth": "燙親要即刻塗牙膏。",
+   "impact": "塗牙膏、豉油等物料，可能令傷勢惡化，仲耽誤咗最重要嘅冷水降溫時間。",
+   "truth": "醫管局建議：用冷水沖洗傷處，或者浸喺清水入面至少十分鐘；輕輕除去手錶、戒指；用清潔物料遮蓋傷口；唔好刺穿水泡；切勿塗紅藥水、燙火膏、醋、醬油、番梘、牙膏等。嚴重燒傷或燙傷要盡快送院。",
+   "src": "醫院管理局「智友站」〈燒傷與燙傷傷口處理〉",
+   "url": "https://www.smartpatient.ha.org.hk/smart-patient-web/theme-based-module/smart-elder/golden-age-corner/wound-care",
+   "level": "已證實",
+   "fact": "燙親應該用冷水沖或浸至少十分鐘。",
+   "tags": [
+    "急救",
+    "燙傷"
+   ]
+  },
+  {
+   "id": "h05",
+   "cat": "health",
+   "img": "ecig",
+   "myth": "電子煙冇煙草，所以冇害。",
+   "impact": "以為「健康啲」就放心吸，甚至由電子煙開始上癮。",
+   "truth": "電子煙雖然冇煙草，但大部分含尼古丁，而且有確據顯示大部分產品會釋出多種可能危害健康嘅物質。",
+   "src": "衞生署控煙酒辦公室〈電子煙〉",
+   "url": "https://www.taco.gov.hk/t/tc_chi/infostation/infostation_ec.html",
+   "level": "已證實",
+   "fact": "大部分電子煙含尼古丁，會釋出可能危害健康嘅物質。",
+   "tags": [
+    "電子煙",
+    "吸煙",
+    "尼古丁"
+   ]
+  },
+  {
+   "id": "h06",
+   "cat": "health",
+   "img": null,
+   "myth": "味精對身體有害，食完會頭暈口渴。",
+   "impact": "有人特登揀「無味精」貴價貨，或者對食物不必要地恐慌。",
+   "truth": "味精即係谷氨酸鈉，番茄、芝士、豉油本身都有谷氨酸。美國食品及藥物管理局視之為「一般認為安全」，國際食品法典委員會亦容許按良好生產規範用喺食物。正常份量食用唔需要擔心；味精含鈉，要控制鹽分嘅人就要留意份量。",
+   "src": "食物安全中心《食物安全焦點》〈廚房中的谷氨酸〉",
+   "url": "https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_204_01.html",
+   "level": "已證實",
+   "fact": "正常份量食用味精，一般認為安全。",
+   "tags": [
+    "味精",
+    "飲食"
+   ]
+  },
+  {
+   "id": "h07",
+   "cat": "health",
+   "img": "wine",
+   "myth": "飲酒面紅即係血液循環好、酒量好。",
+   "impact": "以為面紅冇問題就繼續飲，其實可能大大增加患食道癌嘅風險。",
+   "truth": "飲酒後面紅，好多時係因為身體缺少一種叫 ALDH2 嘅酵素，分解唔到酒精產生嘅乙醛。乙醛係致癌物，喺東亞人之中好常見。研究顯示，呢類人經常飲酒，患食道癌嘅風險明顯更高。",
+   "src": "研究綜述：ALDH2 polymorphism and alcohol-related cancers in Asians（2017）",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5335829/",
+   "level": "已證實",
+   "fact": "飲酒面紅可能代表分解唔到致癌嘅乙醛。",
+   "tags": [
+    "飲酒",
+    "癌症"
+   ]
+  },
+  {
+   "id": "h08",
+   "cat": "health",
+   "img": "wine",
+   "myth": "凍親飲杯酒可以暖身。",
+   "impact": "喺寒冷天氣飲酒，以為暖咗，其實更容易失溫。",
+   "truth": "酒精令皮膚下面嘅血管擴張，暖血湧去皮膚，所以覺得暖；但身體核心嘅熱力反而散失得更快，體溫會降低。",
+   "src": "美國國家酒精濫用及酗酒研究所（NIAAA）〈The Truth About Holiday Spirits〉",
+   "url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/truth-about-holiday-spirits",
+   "level": "已證實",
+   "fact": "飲酒會令身體散熱更快，體溫降低。",
+   "tags": [
+    "飲酒",
+    "體溫"
+   ]
+  },
+  {
+   "id": "h09",
+   "cat": "health",
+   "img": "vaccine",
+   "myth": "打疫苗會令小朋友有自閉症。",
+   "impact": "家長唔帶小朋友打針，麻疹等傳染病就會重新爆發。",
+   "truth": "大量大型、高質素嘅研究都證實疫苗唔會導致自閉症。呢個講法源自 1998 年一篇有關 MMR（麻疹、腮腺炎、德國麻疹）疫苗嘅研究，嗰篇研究後來被發現有嚴重錯誤，已經被期刊撤回。",
+   "src": "世界衞生組織〈疫苗安全問答〉",
+   "url": "https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-vaccine-safety",
+   "level": "已證實",
+   "fact": "大量研究證實疫苗唔會導致自閉症。",
+   "tags": [
+    "疫苗",
+    "自閉症",
+    "兒童"
+   ]
+  },
+  {
+   "id": "h10",
+   "cat": "health",
+   "img": "gum",
+   "myth": "吞咗香口膠會喺肚入面留 7 年。",
+   "impact": "小朋友誤吞會好驚，大人亦會無謂地擔心。",
+   "truth": "香口膠消化唔到，但唔會黐喺肚入面，通常幾日內就會隨大便排出。不過，一次過吞好多，或者同其他消化唔到嘅嘢一齊吞，就可能造成阻塞，所以都唔好特登吞。",
+   "src": "Mayo Clinic〈Swallowing gum: Is it harmful?〉",
+   "url": "https://www.mayoclinic.org/diseases-conditions/indigestion/expert-answers/digestive-system/faq-20058446",
+   "level": "已證實",
+   "fact": "吞咗香口膠通常幾日內就會排出。",
+   "tags": [
+    "香口膠",
+    "兒童",
+    "消化"
+   ]
+  },
+  {
+   "id": "h11",
+   "cat": "health",
+   "img": null,
+   "myth": "啪手指會啪到有關節炎。",
+   "impact": "有人因為怕而成日忍住，其實白擔心。",
+   "truth": "研究冇發現啪手指同關節炎有關。啪啪聲係關節液入面嘅氣泡爆破。如果啪嘅時候痛或者腫，就要睇醫生。",
+   "src": "Harvard Health〈Does cracking knuckles cause arthritis?〉",
+   "url": "https://www.health.harvard.edu/pain/does-cracking-knuckles-cause-arthritis",
+   "level": "已證實",
+   "fact": "研究冇發現啪手指會導致關節炎。",
+   "tags": [
+    "關節",
+    "骨骼"
+   ]
+  },
+  {
+   "id": "h12",
+   "cat": "health",
+   "img": "razor",
+   "myth": "啲毛越剃越粗、越剃越多。",
+   "impact": "有人因此唔敢剃，或者轉用更貴、更痛嘅方法。",
+   "truth": "剃毛唔會改變毛髮嘅粗幼、顏色或者生長速度。新生出嚟嘅毛冇咗尖尖嘅末端，摸落比較硬，所以覺得「粗咗」。",
+   "src": "Mayo Clinic〈Shaving hair: Does shaved hair grow back thicker?〉",
+   "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/hair-removal/faq-20058427",
+   "level": "已證實",
+   "fact": "剃毛唔會令毛變粗或者變多。",
+   "tags": [
+    "剃毛",
+    "皮膚"
+   ]
+  },
+  {
+   "id": "h13",
+   "cat": "health",
+   "img": "candy",
+   "myth": "細路食糖會變得過度活躍。",
+   "impact": "家長將小朋友嘅行為問題全部怪落糖度，忽略咗真正原因，例如瞓得唔夠、環境太刺激。",
+   "truth": "1995 年一個綜合 16 個雙盲研究嘅分析發現，糖對小朋友嘅行為同認知都冇明顯影響。不過糖食多咗會蛀牙同肥胖，所以都要少食。",
+   "src": "JAMA〈The Effect of Sugar on Behavior or Cognition in Children: A Meta-analysis〉",
+   "url": "https://jamanetwork.com/journals/jama/fullarticle/391812",
+   "level": "已證實",
+   "fact": "研究發現糖對小朋友行為冇明顯影響。",
+   "tags": [
+    "糖",
+    "兒童",
+    "飲食"
+   ]
+  },
+  {
+   "id": "h14",
+   "cat": "health",
+   "img": "thermometer",
+   "myth": "發燒要蓋厚被焗汗，出身汗就好。",
+   "impact": "焗住熱力散唔走，體溫可能升得更高，小朋友更容易脫水甚至抽筋。",
+   "truth": "發燒應該著輕薄衣服、蓋薄被，多飲水，房間保持涼爽，可以用暖水抹身。高燒唔退、精神差或者有其他警號，就要睇醫生。",
+   "src": "醫院管理局「智友站」〈發燒〉",
+   "url": "https://www.smartpatient.ha.org.hk/en/smart-patient-web/disease-management/disease-information/disease/Fever",
+   "level": "已證實",
+   "fact": "發燒應該著薄衫、蓋薄被、多飲水。",
+   "tags": [
+    "發燒",
+    "兒童"
+   ]
+  },
+  {
+   "id": "m01",
+   "cat": "money",
+   "img": "stock",
+   "myth": "股票跌咗一半，全沽再買返，成本就會變成現價，冇咁蝕。",
+   "impact": "以為自己「重新開始」，容易再加注、繼續揸住爛股；每轉一次手仲要多俾佣金、買賣差價同印花稅。",
+   "truth": "例子：$10 買入 10,000 股（$100,000），而家跌到 $5。沽完再買，你都係揸住 10,000 股、市值 $50,000，嗰 $50,000 嘅損失一早已經發生咗，變嘅只係 app 顯示嘅「成本價」。代價係多俾一買一賣嘅印花稅（買賣雙方各付 0.1%，大約 $100），未計佣金。",
+   "src": "《2023 年印花稅（修訂）（股票轉讓）條例》",
+   "url": "https://www.ird.gov.hk/eng/pdf/sdo/gazette/es12023277029.pdf",
+   "level": "已證實",
+   "verify": "用「全沽再買」計數機自己試：輸入買入價、股數同現價。",
+   "fact": "全沽再買唔會減少已經蝕咗嘅錢，仲要多俾手續費。",
+   "tags": [
+    "股票",
+    "心理帳戶",
+    "手續費"
+   ]
+  },
+  {
+   "id": "m02",
+   "cat": "money",
+   "img": "coins",
+   "myth": "基金派息高，即係賺得多。",
+   "impact": "只睇派息率揀基金，本金可能一路縮水都唔知。",
+   "truth": "有啲基金可以由本金派息。派息之後，基金嘅資產淨值會相應減少。真正回報要睇「派息 + 資產淨值變化」。年年派 8%，但資產淨值跌 10%，其實係蝕緊。",
+   "src": "投資者及理財教育委員會〈記著，基金派息不一定等於回報〉",
+   "url": "https://www.ifec.org.hk/web/tc/blog/2019/05/fund-distribution-does-not-imply-positive-return.page",
+   "level": "已證實",
+   "fact": "基金可以由本金派息，派息唔等於回報。",
+   "tags": [
+    "基金",
+    "派息"
+   ]
+  },
+  {
+   "id": "m03",
+   "cat": "money",
+   "img": "creditcard",
+   "myth": "信用卡每個月還最低還款額就冇事。",
+   "impact": "利息以年息三十幾厘咁計，欠款越滾越大，可能要好多年先還得清。",
+   "truth": "最低還款額只係唔會被罰遲交費，未還嘅結欠仍然會計息。投委會講明：還最低還款額不能解決債務問題，只會令問題惡化。應該盡量全數清還。",
+   "src": "投資者及理財教育委員會〈卡數〉",
+   "url": "https://www.ifec.org.hk/web/tc/moneyessentials/debts-and-borrowing/manage-exist-debt/Credit-card-debts.page",
+   "level": "已證實",
+   "app": "com.soren.shu_bo",
+   "cta": "想睇財務公司點樣設計借貸陷阱？玩《數簿》",
+   "fact": "只還最低還款額，未還嘅欠款仍然會計息。",
+   "tags": [
+    "信用卡",
+    "卡數",
+    "利息"
+   ]
+  },
+  {
+   "id": "m04",
+   "cat": "money",
+   "img": "piggy",
+   "myth": "遲啲人工高先開始儲錢，都差唔多。",
+   "impact": "遲 10 年開始，最後可能少咗一大截，要儲多好多先追得返。",
+   "truth": "複息令「時間」變成最重要嘅因素。例子：每月儲 $1,000、假設年回報 5%（每月複息）：25 歲開始儲到 65 歲，本金 $480,000，最後約 $1,526,000；35 歲先開始，本金 $360,000，最後只有約 $832,000。本金只差 $120,000，結果差咗差不多 $700,000。（只係數學示例，唔係投資建議，實際回報會上落。）",
+   "src": "投資者及理財教育委員會〈儲蓄〉",
+   "url": "https://www.ifec.org.hk/web/tc/moneyessentials/savings.page",
+   "level": "已證實",
+   "verify": "用「複息」計數機改起始年齡同每月金額試吓。",
+   "app": "com.sorencheung.wealthpath",
+   "cta": "想養成儲錢習慣？玩《富豪養成記》",
+   "fact": "越早開始儲錢，複息效果越大。",
+   "tags": [
+    "儲錢",
+    "複息"
+   ]
+  },
+  {
+   "id": "m05",
+   "cat": "money",
+   "img": "coins",
+   "myth": "強積金收費得一兩個 %，冇乜所謂。",
+   "impact": "收費每年都喺基金資產度扣，長年累月會食咗一大截回報。",
+   "truth": "例子：每月供 $1,500、供 30 年，假設基金扣費前年回報 5%：收費 1%，最後約 $1,041,000；收費 2%，最後約 $874,000，差咗約 $167,000。揀基金時要比較「基金開支比率」。（只係數學示例，唔係投資建議。）",
+   "src": "積金局〈基金收費〉",
+   "url": "https://www.mpfa.org.hk/sc/mpf-investment/principles-of-fund-investment/fees-and-charges",
+   "level": "已證實",
+   "verify": "用「複息」計數機將回報率減 1% 試吓。",
+   "fact": "強積金收費每年扣，長期會食咗一大截回報。",
+   "tags": [
+    "強積金",
+    "收費",
+    "退休"
+   ]
+  },
+  {
+   "id": "m06",
+   "cat": "money",
+   "img": "hkskyline",
+   "myth": "香港樓價只會升，唔會跌。",
+   "impact": "用盡積蓄甚至借到盡去買，一旦樓價跌就可能變負資產。",
+   "truth": "差餉物業估價署嘅私人住宅售價指數（全部類別）：1997 年 163.1，跌到 2003 年 61.6，跌咗約 62%；2021 年 392.7，到 2025 年 290.1，跌咗約 26%。樓價有升有跌，買樓要預留跌市嘅承受能力。",
+   "src": "差餉物業估價署〈私人住宅售價指數（全港）〉",
+   "url": "https://www.rvd.gov.hk/datagovhk/1.4A.csv",
+   "level": "已證實",
+   "fact": "香港樓價曾經由 1997 至 2003 年跌咗約六成。",
+   "tags": [
+    "樓價",
+    "物業"
+   ]
+  },
+  {
+   "id": "m07",
+   "cat": "money",
+   "img": "lottery",
+   "myth": "六合彩揀「熱門號碼」或者「好耐冇出」嘅號碼，中獎機會大啲。",
+   "impact": "花時間研究「走勢」，越買越多。",
+   "truth": "每次攪珠都係獨立事件，任何一組 6 個號碼中頭獎嘅機會都係 1/13,983,816。過去出得多或者少，都唔會改變下一期嘅機會。",
+   "src": "香港賽馬會〈六合彩趣味知識〉",
+   "url": "https://campaigns.hkjc.com/2026-marksix/ch/funfacts",
+   "level": "已證實",
+   "verify": "13,983,816 = 49 個號碼揀 6 個嘅組合數（C(49,6)），可以自己用計數機驗算。",
+   "app": "com.playground.casino_boss",
+   "cta": "想睇莊家點樣長期贏？玩《莊家視角》",
+   "fact": "六合彩每組號碼中頭獎嘅機會都一樣。",
+   "tags": [
+    "六合彩",
+    "機率",
+    "賭博"
+   ]
+  },
+  {
+   "id": "s01",
+   "cat": "science",
+   "img": "brain",
+   "myth": "人只用咗 10% 個腦。",
+   "impact": "有人因此相信「開發腦力」嘅課程或者產品，白白俾錢。",
+   "truth": "腦部掃描顯示，就算簡單嘅動作，都會用到腦嘅好多唔同區域；一日之內，差唔多所有腦區都會活躍。腦部任何地方受損，都會影響功能。",
+   "src": "Scientific American〈Do People Only Use 10 Percent of Their Brains?〉",
+   "url": "https://www.scientificamerican.com/article/do-people-only-use-10-percent-of-their-brains/",
+   "level": "已證實",
+   "fact": "人一日之內差唔多會用到所有腦區。",
+   "tags": [
+    "大腦",
+    "冷知識"
+   ]
+  },
+  {
+   "id": "s02",
+   "cat": "science",
+   "img": "greatwall",
+   "myth": "萬里長城係太空唯一肉眼見到嘅人造建築。",
+   "impact": "一個流傳幾十年嘅「冷知識」，連教科書都曾經寫錯。",
+   "truth": "長城好長，但好窄，顏色同周圍嘅泥土相近，喺太空站用肉眼一般都睇唔到。太空人反而較易見到城市燈光、機場、大型水壩等。",
+   "src": "NASA〈Great Wall Less Great from Space〉",
+   "url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+   "level": "已證實",
+   "fact": "長城喺太空用肉眼一般睇唔到。",
+   "tags": [
+    "長城",
+    "太空"
+   ]
+  },
+  {
+   "id": "s03",
+   "cat": "science",
+   "img": "lightning",
+   "myth": "閃電唔會打中同一個地方兩次。",
+   "impact": "以為啱啱打過嘅地方安全，喺附近避雨。",
+   "truth": "閃電經常重複打中同一個地方，特別係高、尖、孤立嘅物體。美國帝國大廈平均每年被閃電打中大約 23 次。",
+   "src": "美國國家氣象局〈Lightning Myths〉",
+   "url": "https://www.weather.gov/safety/lightning-myths",
+   "level": "已證實",
+   "fact": "閃電經常打中同一個地方。",
+   "tags": [
+    "閃電",
+    "天氣"
+   ]
+  },
+  {
+   "id": "s04",
+   "cat": "science",
+   "img": "orbit",
+   "myth": "夏天熱係因為地球近咗太陽。",
+   "impact": "解釋唔到點解南北半球嘅季節剛好相反。",
+   "truth": "季節係因為地軸傾斜大約 23.5 度，令陽光照射角度同日照時間改變。事實上，地球每年大約喺 1 月初最接近太陽，嗰陣北半球係冬天。",
+   "src": "NASA StarChild〈When is Earth closest to the Sun?〉",
+   "url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question53.html",
+   "level": "已證實",
+   "fact": "季節係因為地軸傾斜，唔係同太陽嘅距離。",
+   "tags": [
+    "季節",
+    "地球",
+    "天文"
+   ]
+  },
+  {
+   "id": "s05",
+   "cat": "science",
+   "img": "camel",
+   "myth": "駱駝個峰係用嚟儲水。",
+   "impact": "對動物點樣喺沙漠生存有錯誤理解。",
+   "truth": "駱駝峰入面係脂肪，唔係水。食物短缺嗰陣，駱駝會用呢啲脂肪做能量；用得多，個峰會變細、軟咗。",
+   "src": "美國國會圖書館〈How much water does a camel’s hump hold?〉",
+   "url": "https://www.loc.gov/everyday-mysteries/categories/zoology/item/how-much-water-does-a-camels-hump-hold/",
+   "level": "已證實",
+   "fact": "駱駝峰入面係脂肪，唔係水。",
+   "tags": [
+    "駱駝",
+    "動物"
+   ]
+  },
+  {
+   "id": "s06",
+   "cat": "science",
+   "img": "bat",
+   "myth": "蝙蝠係盲嘅。",
+   "impact": "低估咗蝙蝠，亦令人誤以為「好似蝙蝠咁盲」係科學事實。",
+   "truth": "蝙蝠唔係盲嘅。佢哋眼細，但視覺好敏感，喺人類覺得太暗嘅環境都睇到嘢。好多蝙蝠會同時用回聲定位同視覺。",
+   "src": "美國地質調查局〈Are bats blind?〉",
+   "url": "https://www.usgs.gov/faqs/are-bats-blind",
+   "level": "已證實",
+   "fact": "蝙蝠唔係盲嘅，視覺好敏感。",
+   "tags": [
+    "蝙蝠",
+    "動物"
+   ]
+  },
+  {
+   "id": "s07",
+   "cat": "science",
+   "img": "bull",
+   "myth": "鬥牛見到紅布就會發狂。",
+   "impact": "以為唔著紅色衫就喺牛隻附近好安全。",
+   "truth": "牛對紅色唔敏感。令佢衝過去嘅係布嘅郁動，唔係顏色。有實驗用唔同顏色嘅布，牛都一樣會衝向郁緊嗰塊。",
+   "src": "Live Science〈Why Do Bulls Charge When they See Red?〉",
+   "url": "https://www.livescience.com/33700-bulls-charge-red.html",
+   "level": "已證實",
+   "fact": "令牛衝過去嘅係布嘅郁動，唔係紅色。",
+   "tags": [
+    "鬥牛",
+    "動物",
+    "顏色"
+   ]
+  },
+  {
+   "id": "s08",
+   "cat": "science",
+   "img": "ostrich",
+   "myth": "鴕鳥遇到危險會將個頭埋落沙。",
+   "impact": "「鴕鳥心態」呢個講法建基於錯誤嘅觀察。",
+   "truth": "鴕鳥唔會將頭埋入沙。佢哋喺地上挖洞做巢，會用嘴翻蛋，遠睇好似埋咗頭。遇到危險，鴕鳥會走或者踢。",
+   "src": "McGill Office for Science and Society〈Ostriches Do Not Really Stick Their Heads in the Sand〉",
+   "url": "https://www.mcgill.ca/oss/article/did-you-know/ostriches-do-not-really-stick-their-heads-sand",
+   "level": "已證實",
+   "fact": "鴕鳥唔會將頭埋入沙。",
+   "tags": [
+    "鴕鳥",
+    "動物"
+   ]
+  },
+  {
+   "id": "s09",
+   "cat": "science",
+   "img": "goldfish",
+   "myth": "金魚記憶只得 3 秒。",
+   "impact": "有人覺得養喺細魚缸、冇乜佈置都冇所謂，金魚會悶、會病。",
+   "truth": "實驗發現魚可以學識同記住訓練內容幾個月，仲有複雜嘅社交行為。「3 秒記憶」冇科學根據。",
+   "src": "BBC Radio 4〈Are fish memories really as bad as we think they are?〉",
+   "url": "https://www.bbc.co.uk/programmes/articles/2hQLzX4xB9nryvlYRV339xy/are-fish-memories-really-as-bad-as-we-think-they-are",
+   "level": "已證實",
+   "fact": "魚可以記住訓練內容幾個月。",
+   "tags": [
+    "金魚",
+    "動物",
+    "記憶"
+   ]
+  },
+  {
+   "id": "s10",
+   "cat": "science",
+   "img": "microwave",
+   "myth": "微波爐叮完嘅嘢食有輻射，食咗唔健康。",
+   "impact": "有人唔敢用微波爐，放棄咗一個方便、溫度較低嘅煮食方法。",
+   "truth": "微波令食物入面嘅水分子振動而產生熱，熄咗機就冇微波，食物唔會「留低」輻射。食物安全中心指出，微波煮食溫度通常唔超過攝氏 100 度，比煎炸更少產生可能致癌嘅物質。要留意嘅反而係加熱唔均勻，所以中途要攪勻。",
+   "src": "食物安全中心〈輻射與食物安全〉",
+   "url": "https://www.cfs.gov.hk/tc_chi/multimedia/multimedia_pub/multimedia_pub_fsf_56_02.html",
+   "level": "已證實",
+   "fact": "微波爐熄咗機，食物唔會留低輻射。",
+   "tags": [
+    "微波爐",
+    "輻射",
+    "廚房"
+   ]
+  },
+  {
+   "id": "s11",
+   "cat": "science",
+   "img": "battery",
+   "myth": "手機電要用到 0% 先好充，咁先保養到電池。",
+   "impact": "成日用到完全冇電，反而令電池老化得更快。",
+   "truth": "鋰電池每次完全放電（行業叫「深度放電」）都會損耗電池，甚至令佢損壞。平時喺用到兩三成時充電就得，唔需要等到 0%。",
+   "src": "CSIRO〈Power up: The best battery advice〉",
+   "url": "https://www.csiro.au/en/news/All/Articles/2018/January/power-up-our-battery-advice-free-of-charge",
+   "level": "已證實",
+   "fact": "鋰電池經常完全放電，反而會損耗電池。",
+   "tags": [
+    "電池",
+    "手機"
+   ]
+  },
+  {
+   "id": "s12",
+   "cat": "science",
+   "img": "tongue",
+   "myth": "舌尖食甜、兩邊食酸，舌頭唔同位置負責唔同味道。",
+   "impact": "一張錯誤嘅「舌頭地圖」喺教科書流傳咗幾十年。",
+   "truth": "舌頭每個有味蕾嘅位置都可以感受到所有基本味道（甜、酸、鹹、苦、鮮），只係敏感程度略有不同。味蕾甚至唔只喺舌頭，上顎同喉嚨都有。",
+   "src": "Harvard Health〈The myth of tongue and taste〉",
+   "url": "https://www.health.harvard.edu/diet-and-nutrition/the-myth-of-tongue-and-taste",
+   "level": "已證實",
+   "fact": "舌頭每個有味蕾嘅位置都感受到所有基本味道。",
+   "tags": [
+    "舌頭",
+    "味覺"
+   ]
+  },
+  {
+   "id": "p01",
+   "cat": "mind",
+   "img": "dice",
+   "myth": "骰寶連開咗 5 鋪大，下一鋪一定開細。",
+   "impact": "以為「轉運」就加大注碼，追注越追越大。",
+   "truth": "每一鋪都係獨立事件，三粒骰唔會記得上一鋪開咗乜。無論之前開過咩，每鋪開細嘅機會都係 105/216 ≈ 48.6%，因為開圍骰（三粒同點）大細都通殺，出現機會係 6/216 ≈ 2.8%。長期玩落去，輸嘅一定係玩家。",
+   "src": "機率計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "verify": "用「骰寶模擬器」擲 10,000 鋪，睇吓連開 5 鋪大之後開細嘅比例。",
+   "app": "com.playground.casino_boss",
+   "cta": "想睇莊家點樣長期贏？玩《莊家視角》",
+   "fact": "骰寶每一鋪都係獨立事件，唔會「轉運」。",
+   "tags": [
+    "骰寶",
+    "賭徒謬誤",
+    "機率",
+    "賭博"
+   ]
+  },
+  {
+   "id": "p02",
+   "cat": "mind",
+   "img": "brain",
+   "myth": "有人係「左腦人」（理性）、有人係「右腦人」（創意）。",
+   "impact": "用嚟標籤自己或者小朋友，限制咗發展方向。",
+   "truth": "猶他大學研究團隊分析咗超過 1,000 人嘅腦部掃描，發現冇人係用某一邊腦多過另一邊。左右腦確實有分工（例如語言多數喺左邊），但性格同呢個無關。",
+   "src": "猶他大學健康中心（2013）",
+   "url": "https://healthcare.utah.edu/press-releases/2013/08/researchers-debunk-myth-of-right-brain-and-left-brainpersonality-traits",
+   "level": "已證實",
+   "fact": "研究冇發現有人特別多用左腦或者右腦。",
+   "tags": [
+    "大腦",
+    "左腦右腦"
+   ]
+  },
+  {
+   "id": "p03",
+   "cat": "mind",
+   "img": null,
+   "myth": "每個人有自己嘅「學習風格」（視覺型、聽覺型），跟風格學先最有效。",
+   "impact": "學校同家長花錢做「風格測試」，學生只用一種方法溫書，可能學得更差。",
+   "truth": "2008 年一篇大型文獻回顧發現，幾乎冇設計嚴謹嘅研究證明「按學習風格教學」會令人學得更好。真正有效嘅係按內容揀方法，例如地理用地圖、語言多聽多講。",
+   "src": "Pashler 等〈Learning Styles: Concepts and Evidence〉",
+   "url": "https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2009.01038.x",
+   "level": "已證實",
+   "fact": "冇可靠證據支持「按學習風格教學」更有效。",
+   "tags": [
+    "學習",
+    "教育"
+   ]
+  },
+  {
+   "id": "p04",
+   "cat": "mind",
+   "img": null,
+   "myth": "一心多用，可以一次過做多啲嘢。",
+   "impact": "以為自己好有效率，其實做得慢咗、錯多咗；揸車睇手機更加危險。",
+   "truth": "人腦其實係喺任務之間不停切換，每次切換都有「轉換成本」。美國心理學會指出，呢啲切換會降低效率、增加出錯同意外嘅風險。",
+   "src": "美國心理學會〈Multitasking: Switching costs〉",
+   "url": "https://www.apa.org/topics/research/multitasking",
+   "level": "已證實",
+   "fact": "一心多用其實係不停切換，會降低效率。",
+   "tags": [
+    "一心多用",
+    "專注"
+   ]
+  },
+  {
+   "id": "p05",
+   "cat": "mind",
+   "img": "mozart",
+   "myth": "聽莫扎特可以令 BB 或者人變聰明。",
+   "impact": "家長買大量「莫扎特 BB 音樂」，以為可以提升智力。",
+   "truth": "1993 年嘅原始研究係講大學生聽完莫扎特，空間推理測驗嘅表現短暫好咗少少，對象唔係 BB。之後綜合幾十個研究嘅分析發現，效果好細，唔等於令人長期變聰明。",
+   "src": "Pietschnig 等（2010）〈Mozart effect–Shmozart effect: A meta-analysis〉",
+   "url": "https://doi.org/10.1016/j.intell.2010.03.001",
+   "level": "已證實",
+   "fact": "莫扎特效應好細，唔會令人長期變聰明。",
+   "tags": [
+    "音樂",
+    "兒童",
+    "學習"
+   ]
+  },
+  {
+   "id": "p06",
+   "cat": "mind",
+   "img": "b17",
+   "myth": "返航戰機邊度中彈最多，就應該喺嗰度加裝甲。",
+   "impact": "只睇「生還者」嘅數據，會得出完全相反嘅結論（倖存者偏差）。",
+   "truth": "二戰時統計學家 Abraham Wald 指出：被擊中引擎嘅飛機多數返唔到嚟，所以返到嚟嘅飛機引擎少彈孔。應該加強嘅係「冇彈孔」嘅位置。同樣道理，只聽成功人士講「退學創業」，就睇唔到大量失敗嘅人。",
+   "src": "Wald〈A Method of Estimating Plane Vulnerability Based on Damage of Survivors〉（CNA 重印）",
+   "url": "https://www.cna.org/reports/1980/0204320000.pdf",
+   "level": "已證實",
+   "fact": "只睇倖存者嘅數據，會得出錯誤結論。",
+   "tags": [
+    "倖存者偏差",
+    "認知偏差"
+   ]
+  },
+  {
+   "id": "p07",
+   "cat": "mind",
+   "img": null,
+   "myth": "已經俾咗錢，套戲再難睇、份餐再難食都要捱完先唔蝕。",
+   "impact": "已經用咗嘅錢攞唔返，硬捱只係再賠埋時間同心情；投資上就係唔肯止蝕（沉沒成本謬誤）。",
+   "truth": "應該只考慮「由而家開始」嘅得失。Arkes 同 Blumer 1985 年嘅實驗發現，俾全費買季票嘅人，比攞到折扣嘅人去睇多咗場，即係已經俾咗嘅錢會影響人嘅決定。",
+   "src": "Arkes & Blumer（1985）〈The psychology of sunk cost〉",
+   "url": "https://doi.org/10.1016/0749-5978(85)90049-4",
+   "level": "已證實",
+   "fact": "已經用咗嘅錢，唔應該影響之後嘅決定。",
+   "tags": [
+    "沉沒成本",
+    "認知偏差"
+   ]
+  },
+  {
+   "id": "p08",
+   "cat": "mind",
+   "img": "anchor",
+   "myth": "我估價好客觀，唔會受隨口講出嚟嘅數字影響。",
+   "impact": "買樓、買車、講人工時，第一個開出嚟嘅數字會牽住你走（錨定效應）。",
+   "truth": "Tversky 同 Kahneman 嘅實驗：先轉一個得出 10 或者 65 嘅輪盤，再估「非洲國家佔聯合國幾多 %」。見到 10 嘅人估中位數 25%，見到 65 嘅人估 45%，即係一個明知隨機嘅數字都影響到判斷。",
+   "src": "Tversky & Kahneman（1974）〈Judgment under Uncertainty: Heuristics and Biases〉",
+   "url": "https://web.stanford.edu/~knutson/jdm/tversky74.pdf",
+   "level": "已證實",
+   "fact": "一個隨機數字都可以影響你嘅估計。",
+   "tags": [
+    "錨定效應",
+    "認知偏差"
+   ]
+  },
+  {
+   "id": "p09",
+   "cat": "mind",
+   "img": "polygraph",
+   "myth": "測謊機好準，測到人講大話。",
+   "impact": "無辜嘅人可能因為緊張被當成講大話，真係講大話嘅人反而可能過到關。",
+   "truth": "測謊機量度嘅係心跳、血壓、呼吸、出汗，即係緊張程度，唔係「講大話」本身。美國心理學會指出，冇證據顯示有某種生理反應係講大話獨有嘅。",
+   "src": "美國心理學會〈Do “lie detectors” work?〉",
+   "url": "https://www.apa.org/topics/cognitive-neuroscience/polygraph",
+   "level": "已證實",
+   "fact": "測謊機量度嘅係緊張程度，唔係講大話。",
+   "tags": [
+    "測謊",
+    "說謊"
+   ]
+  },
+  {
+   "id": "k01",
+   "cat": "hk",
+   "img": "fridge",
+   "myth": "熱餸要放到完全凍先好入雪櫃。",
+   "impact": "餸放喺室溫幾個鐘，細菌大量繁殖，係食物中毒常見嘅成因。",
+   "truth": "煮好嘅餸要盡快冷卻，2 個鐘內放入雪櫃。可以分細份、放淺盤，等佢凍得快啲。放喺室溫超過 4 個鐘就要掉。剩餸入雪櫃超過 3 日要掉，食之前要翻熱至滾燙，而且只可以翻熱一次。",
+   "src": "食物安全中心〈處理剩餘食物〉",
+   "url": "https://www.cfs.gov.hk/tc_chi/consumer_zone/safefood_all/five_keys_apply_leftovers.html",
+   "level": "已證實",
+   "app": "hk.geichin.gei_chin",
+   "cta": "雪櫃有咩煮咩？用《今晚食咩》",
+   "fact": "熱餸應該 2 個鐘內放入雪櫃。",
+   "tags": [
+    "剩餸",
+    "雪櫃",
+    "食物安全"
+   ]
+  },
+  {
+   "id": "k02",
+   "cat": "hk",
+   "img": "frozen",
+   "myth": "急住煮就將凍肉放喺枱面解凍。",
+   "impact": "外層好快回暖，細菌喺表面繁殖，裡面仲未解凍。",
+   "truth": "食物安全中心建議三個方法：放雪櫃保鮮格解凍、用流動嘅冷自來水解凍，或者用微波爐解凍。後兩種方法解凍完要即刻煮，唔好再雪返。魚蛋、餃子等細嘅冷藏食物可以直接煮。",
+   "src": "食物安全中心〈正確解凍冷藏食品〉",
+   "url": "https://www.cfs.gov.hk/tc_chi/consumer_zone/safefood_all/five_keys_defrosting.html",
+   "level": "已證實",
+   "app": "hk.geichin.gei_chin",
+   "cta": "雪櫃有咩煮咩？用《今晚食咩》",
+   "fact": "凍肉唔應該放喺室溫解凍。",
+   "tags": [
+    "解凍",
+    "食物安全"
+   ]
+  },
+  {
+   "id": "k03",
+   "cat": "hk",
+   "img": "sink",
+   "myth": "生雞生肉要喺鋅盆沖乾淨先煮，咁先衞生。",
+   "impact": "沖水時水花四濺，將細菌帶到附近嘅枱面、餐具同即食食物。",
+   "truth": "徹底煮熟先係殺菌嘅方法。沖洗生肉同家禽時，飛濺嘅水花可以帶有細菌；如果一定要沖，沖完要徹底清潔鋅盆同周圍。處理生熟食物要用唔同嘅砧板同刀。",
+   "src": "食物安全中心〈配製〉",
+   "url": "https://www.cfs.gov.hk/tc_chi/consumer_zone/safefood_all/five_keys_apply_prepare.html",
+   "level": "已證實",
+   "fact": "沖洗生雞時，水花會將細菌濺到周圍。",
+   "tags": [
+    "雞",
+    "食物安全",
+    "廚房"
+   ]
+  },
+  {
+   "id": "k04",
+   "cat": "hk",
+   "img": "oyster",
+   "myth": "食生蠔配檸檬汁、醋或者烈酒，可以殺菌。",
+   "impact": "以為「消咗毒」就放心食，結果食物中毒。",
+   "truth": "諾如病毒耐酸，加熱到攝氏 60 度維持 30 分鐘都可能仍然有傳染性。食物安全中心指出，蠔受咗污染，點檸檬汁、醋或者配酒精都唔能夠預防感染。高危人士應避免食生蠔。",
+   "src": "食物安全中心〈吃生蠔－三思而行〉",
+   "url": "https://www.cfs.gov.hk/sc_chi/multimedia/multimedia_pub/multimedia_pub_fsf_77_01.html",
+   "level": "已證實",
+   "fact": "檸檬汁、醋同酒精都殺唔到生蠔嘅諾如病毒。",
+   "tags": [
+    "生蠔",
+    "諾如病毒",
+    "食物安全"
+   ]
+  },
+  {
+   "id": "k05",
+   "cat": "hk",
+   "img": "hotpot",
+   "myth": "打邊爐用同一對筷子夾生肉同食熟嘢都冇問題。",
+   "impact": "生料嘅細菌經筷子帶入口，容易食物中毒。",
+   "truth": "食物安全中心建議用兩套唔同嘅筷子同用具，分別處理生同熟嘅食物；食物要徹底煮熟。用嚟醃生海鮮嘅芥辣或者烈酒，都殺唔到海鮮入面嘅細菌或者寄生蟲。",
+   "src": "食物安全中心〈安全食用火鍋的重要要點〉",
+   "url": "https://www.cfs.gov.hk/tc_chi/multimedia/multimedia_pub/multimedia_pub_fsf_210_02.html",
+   "level": "已證實",
+   "fact": "打邊爐應該用兩套筷子分開生熟。",
+   "tags": [
+    "打邊爐",
+    "食物安全"
+   ]
+  },
+  {
+   "id": "k06",
+   "cat": "hk",
+   "img": "thunder",
+   "myth": "行山遇到雷暴，走去大樹下避雨最安全。",
+   "impact": "樹木容易被閃電擊中，喺樹下避雨反而最危險。",
+   "truth": "天文台建議：遠離樹木、桅杆同山頂等高處，唔好接近導電物體。閃電擊中物體後電流會經地面傳開，所以唔好躺喺地上，應該蹲低，盡量減少同地面接觸。",
+   "src": "香港天文台〈雷暴〉",
+   "url": "https://www.hko.gov.hk/tc/publica/gen_pub/ts.htm",
+   "level": "已證實",
+   "fact": "雷暴時應該遠離大樹。",
+   "tags": [
+    "雷暴",
+    "天氣",
+    "安全"
+   ]
+  },
+  {
+   "id": "k07",
+   "cat": "hk",
+   "img": "hktyphoon",
+   "myth": "打十號風球，突然風停咗，即係颱風過咗，可以出街。",
+   "impact": "其實可能係風眼經過，出咗街之後大風突然由另一個方向打返嚟。",
+   "truth": "天文台指出：風眼直接掠過時，風勢會停息幾分鐘至幾個鐘，但破壞性嘅風力隨時會突然恢復，並由另一個方向吹嚟。切勿離開有遮蔽嘅地方，留意天文台公布。",
+   "src": "香港天文台〈熱帶氣旋警告信號生效時應注意的事項〉",
+   "url": "https://www.hko.gov.hk/tc/informtc/precaution.htm",
+   "level": "已證實",
+   "fact": "風眼過境時風停咗，大風隨時由另一邊打返嚟。",
+   "tags": [
+    "颱風",
+    "天氣",
+    "安全"
+   ]
+  },
+  {
+   "id": "h15",
+   "cat": "health",
+   "img": "vaccine",
+   "myth": "流感即係重啲嘅傷風。",
+   "impact": "當流感係小病，唔打針、病咗照返工返學，傳染更多人；長者同長期病患者可能出現肺炎等嚴重併發症。",
+   "truth": "流感同傷風都係病毒感染，但係唔同嘅病毒。流感通常突然發高燒、肌肉痛、好攰，有機會引致肺炎甚至死亡。每年打流感疫苗係最有效嘅預防方法之一。",
+   "src": "衞生防護中心〈季節性流感〉",
+   "url": "https://www.chp.gov.hk/tc/healthtopics/content/24/29.html",
+   "level": "已證實",
+   "fact": "流感比傷風嚴重，可以引致肺炎等併發症。",
+   "tags": [
+    "流感",
+    "感冒",
+    "疫苗"
+   ]
+  },
+  {
+   "id": "h16",
+   "cat": "health",
+   "img": "sink",
+   "myth": "用熱水洗手先殺到菌。",
+   "impact": "以為水夠熱就得，洗得太快又冇用番梘，手上嘅細菌照樣喺度；水太熱仲可能燙傷皮膚。",
+   "truth": "研究冇發現水溫會影響洗手去除細菌嘅效果，凍水暖水都得。重點係用番梘、搓手最少 20 秒（包括手背、指罅、指甲），再沖乾淨。",
+   "src": "美國疾病控制及預防中心（CDC）〈Handwashing Facts〉",
+   "url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+   "level": "已證實",
+   "fact": "洗手水溫唔重要，用番梘搓最少 20 秒先係重點。",
+   "tags": [
+    "洗手",
+    "衞生"
+   ]
+  },
+  {
+   "id": "h17",
+   "cat": "health",
+   "img": null,
+   "myth": "坐得太近睇電視會整壞眼。",
+   "impact": "家長成日鬧小朋友，但真正要注意嘅（例如近視、長時間近距離用眼、少戶外活動）反而冇理。",
+   "truth": "美國眼科學會指出，坐近電視唔會損害眼睛，最多會令眼睛疲勞。小朋友成日要坐好近先睇得清，反而可能係近視嘅徵兆，應該帶去驗眼。",
+   "src": "美國眼科學會（AAO）〈Will Sitting Too Close to the TV Damage My Eyes?〉",
+   "url": "https://www.aao.org/eye-health/tips-prevention/sitting-close-to-tv",
+   "level": "已證實",
+   "fact": "坐近電視唔會損害眼睛，但可能係近視嘅徵兆。",
+   "tags": [
+    "眼睛",
+    "兒童",
+    "近視"
+   ]
+  },
+  {
+   "id": "h18",
+   "cat": "health",
+   "img": null,
+   "myth": "食多啲紅蘿蔔，夜晚會睇得特別清楚。",
+   "impact": "以為食紅蘿蔔就可以改善視力，延誤咗真正嘅驗眼同治療。",
+   "truth": "紅蘿蔔有 β-胡蘿蔔素，身體會轉成維他命 A。缺乏維他命 A 會有夜盲，補返就會改善；但係本身唔缺嘅人，食再多都唔會睇得更清楚。呢個講法喺二次大戰時被英國用嚟掩飾雷達技術而廣泛流傳。",
+   "src": "Scientific American〈Fact or Fiction?: Carrots Improve Your Vision〉",
+   "url": "https://www.scientificamerican.com/article/fact-or-fiction-carrots-improve-your-vision/",
+   "level": "已證實",
+   "fact": "唔缺維他命 A 嘅人，食多紅蘿蔔都唔會睇得更清楚。",
+   "tags": [
+    "眼睛",
+    "飲食",
+    "紅蘿蔔"
+   ]
+  },
+  {
+   "id": "h19",
+   "cat": "health",
+   "img": "ecig",
+   "myth": "食「淡味」、低焦油煙會安全啲。",
+   "impact": "以為轉食淡煙就冇咁傷身，結果繼續食落去，風險其實冇減。",
+   "truth": "美國國家癌症研究所指出，「淡味」或低焦油香煙並唔會比普通香煙安全。食煙嘅人會不自覺吸得更深、更密，吸入嘅有害物質差唔多。唯一有效減低風險嘅方法係戒煙。",
+   "src": "美國國家癌症研究所〈\"Light\" Cigarettes and Cancer Risk〉",
+   "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/tobacco/light-cigarettes-fact-sheet",
+   "level": "已證實",
+   "fact": "「淡味」香煙唔會比普通香煙安全。",
+   "tags": [
+    "吸煙",
+    "癌症"
+   ]
+  },
+  {
+   "id": "h20",
+   "cat": "health",
+   "img": "ecig",
+   "myth": "開窗或者開抽氣扇食煙，屋企人就唔會食到二手煙。",
+   "impact": "以為開窗就冇事，屋企人同小朋友繼續長期吸入二手煙。",
+   "truth": "世界衞生組織指出，二手煙冇安全水平，任何份量都有害。開窗或者抽氣扇只係令煙味散啲，有害物質照樣留喺室內。保護屋企人最可靠嘅方法係完全唔喺室內食煙。",
+   "src": "世界衞生組織〈Tobacco〉",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/tobacco",
+   "level": "已證實",
+   "fact": "二手煙冇安全水平，室內完全唔食煙先保護到屋企人。",
+   "tags": [
+    "吸煙",
+    "二手煙",
+    "兒童"
+   ]
+  },
+  {
+   "id": "h21",
+   "cat": "health",
+   "img": null,
+   "myth": "飲咖啡同茶會令人脫水，唔計得做飲水。",
+   "impact": "有人特登唔計咖啡同茶，或者以為飲咖啡會缺水而過分擔心。",
+   "truth": "Mayo Clinic 指出，咖啡同茶雖然有輕微利尿作用，但係唔會令人脫水，一樣計入每日嘅水分攝取。不過咖啡因唔好飲得太多，孕婦同對咖啡因敏感嘅人要留意份量。",
+   "src": "Mayo Clinic〈Water: How much should you drink every day?〉",
+   "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256",
+   "level": "已證實",
+   "fact": "咖啡同茶唔會令人脫水，一樣計入每日水分。",
+   "tags": [
+    "咖啡",
+    "飲水",
+    "飲食"
+   ]
+  },
+  {
+   "id": "h22",
+   "cat": "health",
+   "img": null,
+   "myth": "同癌症病人接觸會傳染癌症。",
+   "impact": "病人被孤立，親友唔敢探望、唔敢一齊食飯，令病人更加孤單。",
+   "truth": "美國癌症協會指出，癌症本身唔會人傳人，同病人擁抱、一齊食飯、照顧佢都唔會「感染」。有啲病毒（例如人類乳頭瘤病毒 HPV、乙型肝炎）會傳染，而佢哋會增加患某啲癌症嘅風險，但傳染嘅係病毒，唔係癌症。",
+   "src": "美國癌症協會〈Is Cancer Contagious?〉",
+   "url": "https://www.cancer.org/cancer/risk-prevention/understanding-cancer-risk/is-cancer-contagious.html",
+   "level": "已證實",
+   "fact": "癌症本身唔會人傳人。",
+   "tags": [
+    "癌症",
+    "傳染"
+   ]
+  },
+  {
+   "id": "h24",
+   "cat": "health",
+   "img": "firstaid",
+   "myth": "俾蛇咬要用口啜走毒液，或者割開傷口放毒。",
+   "impact": "啜同割都唔會有效清走毒液，仲可能令傷口感染、受傷更嚴重，延誤送院。",
+   "truth": "英國國民保健署指出，唔好嘗試啜走或者割開傷口放毒。應該保持冷靜、少郁動被咬嘅位置、除去戒指手錶，盡快送院或者打 999。",
+   "src": "英國國民保健署（NHS）〈Snake bites〉",
+   "url": "https://www.nhs.uk/conditions/snake-bites/",
+   "level": "已證實",
+   "fact": "俾蛇咬唔好啜毒、唔好割傷口，應該少郁動、盡快送院。",
+   "tags": [
+    "急救",
+    "蛇"
+   ]
+  },
+  {
+   "id": "h25",
+   "cat": "health",
+   "img": "firstaid",
+   "myth": "有人抽筋（癲癇發作）要塞嘢入佢口，防佢咬舌。",
+   "impact": "塞嘢入口可能整斷牙齒、整傷口腔，甚至令佢窒息；旁人亦可能俾佢咬傷。",
+   "truth": "美國疾病控制及預防中心指出，癲癇發作時絕對唔好放任何嘢入佢口，亦唔好捉實佢。應該移走周圍危險物品、扶佢側臥、托住個頭，並記低發作時間；超過 5 分鐘就要叫救護車。",
+   "src": "美國疾病控制及預防中心（CDC）〈First Aid for Seizures〉",
+   "url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+   "level": "已證實",
+   "fact": "癲癇發作時唔好放任何嘢入佢口，扶佢側臥。",
+   "tags": [
+    "急救",
+    "癲癇"
+   ]
+  },
+  {
+   "id": "h26",
+   "cat": "health",
+   "img": null,
+   "myth": "蜜糖天然，一歲以下 BB 都食得。",
+   "impact": "蜜糖可能含肉毒桿菌孢子，一歲以下 BB 腸道未成熟，食咗可能患上嬰兒肉毒中毒，出現便秘、無力、呼吸困難。",
+   "truth": "美國疾病控制及預防中心建議，唔好俾一歲以下嘅 BB 食蜜糖，包括加咗蜜糖嘅食物。一歲以上嘅小朋友同成人腸道可以應付，一般冇問題。",
+   "src": "美國疾病控制及預防中心（CDC）〈Preventing Botulism〉",
+   "url": "https://www.cdc.gov/botulism/prevention/index.html",
+   "level": "已證實",
+   "fact": "一歲以下 BB 唔好食蜜糖，有機會引致嬰兒肉毒中毒。",
+   "tags": [
+    "嬰兒",
+    "蜜糖",
+    "食物安全"
+   ]
+  },
+  {
+   "id": "h27",
+   "cat": "health",
+   "img": "wine",
+   "myth": "飲杯咖啡就醒酒，可以揸車。",
+   "impact": "以為飲咗咖啡清醒咗，其實血液酒精濃度冇變，揸車一樣危險，亦一樣犯法。",
+   "truth": "美國國家酒精濫用及酗酒研究所指出，咖啡、凍水沖涼都唔會令酒精消散得快啲，只會令人「醒啲」但判斷力同反應照樣受影響。只有時間先可以令身體慢慢分解酒精。飲咗酒就唔好揸車。",
+   "src": "美國國家酒精濫用及酗酒研究所（NIAAA）〈The Truth About Holiday Spirits〉",
+   "url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/truth-about-holiday-spirits",
+   "level": "已證實",
+   "fact": "咖啡同沖涼都唔會令人醒酒，只有時間可以。",
+   "tags": [
+    "飲酒",
+    "咖啡",
+    "駕駛"
+   ]
+  },
+  {
+   "id": "h28",
+   "cat": "health",
+   "img": null,
+   "myth": "戴口罩太耐會缺氧、二氧化碳中毒。",
+   "impact": "有人因此唔肯喺需要時戴口罩，增加傳染病傳播。",
+   "truth": "世界衞生組織指出，長時間戴醫用口罩雖然可能唔舒服，但唔會引致二氧化碳中毒或者缺氧。口罩要戴得貼，唔好重用即棄口罩；兩歲以下嘅小朋友唔應該戴。",
+   "src": "世界衞生組織〈Coronavirus disease (COVID-19) advice for the public: Mythbusters〉",
+   "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+   "level": "已證實",
+   "fact": "長時間戴口罩唔會引致缺氧或者二氧化碳中毒。",
+   "tags": [
+    "口罩",
+    "傳染"
+   ]
+  },
+  {
+   "id": "h29",
+   "cat": "health",
+   "img": null,
+   "myth": "心臟病發一定係胸口劇痛。",
+   "impact": "女性、長者同糖尿病人心臟病發時，可能冇明顯胸痛，以為係胃痛或者攰，延誤送院。",
+   "truth": "美國國家心肺及血液研究所指出，胸痛或者胸口不適係最常見嘅病徵，但女性較常出現其他病徵，例如氣促、作嘔、嘔吐、背痛或者下巴痛。有懷疑就要即刻打 999。",
+   "src": "美國國家心肺及血液研究所（NHLBI）〈Heart Attack: Women〉",
+   "url": "https://www.nhlbi.nih.gov/health/heart-attack/women",
+   "level": "已證實",
+   "fact": "心臟病發唔一定胸口痛，女性較常出現氣促、作嘔等病徵。",
+   "tags": [
+    "心臟病",
+    "急救",
+    "女性"
+   ]
+  },
+  {
+   "id": "h30",
+   "cat": "health",
+   "img": "firstaid",
+   "myth": "懷疑中風可以等佢瞓一陣，好返啲先睇醫生。",
+   "impact": "中風治療好講時間，等得越耐腦細胞死得越多，可能留低癱瘓、講唔到嘢等後遺症。",
+   "truth": "記住 F.A.S.T.：Face 塊面一邊歪、Arm 一隻手提唔起、Speech 講嘢含糊、Time 即刻打 999。就算病徵消失咗，都要即刻送院。",
+   "src": "美國疾病控制及預防中心（CDC）〈Signs and Symptoms of Stroke〉",
+   "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+   "level": "已證實",
+   "fact": "懷疑中風要即刻打 999，越早治療越好。",
+   "tags": [
+    "中風",
+    "急救"
+   ]
+  },
+  {
+   "id": "h31",
+   "cat": "health",
+   "img": "firstaid",
+   "myth": "唔識人工呼吸，就唔好幫人做心肺復甦（CPR）。",
+   "impact": "旁人因為怕做錯而乜都唔做，病人錯過最關鍵嘅頭幾分鐘。",
+   "truth": "英國國民保健署指出，如果唔識或者唔願意做人工呼吸，就只做胸外按壓：先打 999，然後喺胸口中間用力、快速咁按（每分鐘 100 至 120 下），一直做到救護員或者 AED 到。做咗總好過乜都唔做。",
+   "src": "英國國民保健署（NHS）〈CPR〉",
+   "url": "https://www.nhs.uk/conditions/first-aid/cpr/",
+   "level": "已證實",
+   "fact": "唔識人工呼吸都可以做「淨按壓」CPR。",
+   "tags": [
+    "急救",
+    "CPR"
+   ]
+  },
+  {
+   "id": "h32",
+   "cat": "health",
+   "img": "thermometer",
+   "myth": "陰天唔使搽防曬。",
+   "impact": "以為冇太陽就冇紫外線，結果一樣曬傷，長遠增加皮膚癌同皮膚老化風險。",
+   "truth": "世界衞生組織指出，就算係陰天，紫外線都可以穿過雲層。要睇紫外線指數決定防護，而唔係睇有冇太陽。香港天文台每日都有公佈紫外線指數。",
+   "src": "世界衞生組織〈Radiation: Ultraviolet (UV) radiation〉",
+   "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-ultraviolet-(uv)",
+   "level": "已證實",
+   "fact": "紫外線可以穿過雲層，陰天都會曬傷。",
+   "tags": [
+    "防曬",
+    "紫外線",
+    "皮膚"
+   ]
+  },
+  {
+   "id": "h33",
+   "cat": "health",
+   "img": null,
+   "myth": "太陽眼鏡越深色，越防紫外線。",
+   "impact": "戴咗深色但冇防紫外線嘅眼鏡，瞳孔放大，反而令更多紫外線入眼。",
+   "truth": "美國眼科學會指出，鏡片顏色深淺同防紫外線能力無關。揀太陽眼鏡要睇有冇標明阻隔 99% 至 100% UVA 同 UVB（或者「UV400」）。",
+   "src": "美國眼科學會（AAO）〈Sunglasses〉",
+   "url": "https://www.aao.org/eye-health/glasses-contacts/sunglasses-3",
+   "level": "已證實",
+   "fact": "太陽眼鏡防紫外線同顏色深淺無關，要睇 UV400 標示。",
+   "tags": [
+    "眼睛",
+    "紫外線",
+    "防曬"
+   ]
+  },
+  {
+   "id": "h34",
+   "cat": "health",
+   "img": null,
+   "myth": "喺暗處睇書會令眼睛永久受損。",
+   "impact": "小朋友俾人鬧到驚，但真正影響近視嘅因素（長時間近距離用眼、少戶外活動）反而冇理。",
+   "truth": "美國眼科學會指出，喺暗處睇書會令眼睛疲勞、乾澀，但唔會造成永久損害，休息一陣就會好返。",
+   "src": "美國眼科學會（AAO）〈Reading in Dim Light〉",
+   "url": "https://www.aao.org/eye-health/tips-prevention/reading-in-dim-light",
+   "level": "已證實",
+   "fact": "暗處睇書只會令眼睛疲勞，唔會造成永久損害。",
+   "tags": [
+    "眼睛",
+    "兒童"
+   ]
+  },
+  {
+   "id": "h35",
+   "cat": "health",
+   "img": "candy",
+   "myth": "胖人先會有糖尿病，瘦人唔使擔心。",
+   "impact": "體重正常嘅人以為自己冇風險，唔驗血，發現時已經有併發症。",
+   "truth": "超重係二型糖尿病嘅主要風險因素之一，但唔係唯一：家族史、年齡、缺乏運動、亞洲人等因素都有關。衞生署建議 45 歲以上、或者有風險因素嘅人定期驗血糖。",
+   "src": "衞生防護中心〈糖尿病〉",
+   "url": "https://www.chp.gov.hk/tc/healthtopics/content/25/59.html",
+   "level": "已證實",
+   "fact": "瘦人都可能有糖尿病，要定期驗血糖。",
+   "tags": [
+    "糖尿病",
+    "體重"
+   ]
+  },
+  {
+   "id": "m08",
+   "cat": "money",
+   "img": "stock",
+   "myth": "股票跌咗就買多啲「溝淡」，一定著數。",
+   "impact": "平均成本睇落低咗，但係將更多錢押喺同一隻股票，如果公司真係出事，蝕得仲多。",
+   "truth": "溝貨只係改變「平均成本」個數字，唔會改變股票將來升定跌。例子：$10 買 1,000 股，跌到 $5 再買 1,000 股，平均成本 $7.5，但投入咗 $15,000；如果再跌到 $2，就蝕 $11,000，唔溝淨係蝕 $8,000。應該問：「如果手上冇呢隻股票，以而家嘅價錢我會唔會買？」",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "溝貨只會改變平均成本，唔會令股票更大機會升。",
+   "tags": [
+    "股票",
+    "溝貨",
+    "心理帳戶"
+   ],
+   "verify": "1,000×$10 + 1,000×$5 = $15,000；2,000 股 × $2 = $4,000，蝕 $11,000。唔溝：1,000 × ($10 − $2) = $8,000。"
+  },
+  {
+   "id": "m09",
+   "cat": "money",
+   "img": "coins",
+   "myth": "私人貸款「平息」每年 4%，即係實際利息 4%。",
+   "impact": "以為好平就借，其實實際年利率差唔多高一倍。",
+   "truth": "「平息」係用最初借嘅本金計息，但你每個月都還緊本金，欠款越嚟越少，利息卻照計。例子：借 $100,000，平息 4%，分 36 期，每月還 $3,111，總利息 $12,000；換算做實際年利率大約係 7.5%。比較貸款要睇「實際年利率」。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "平息 4% 分 36 期，實際年利率大約 7.5%。",
+   "tags": [
+    "貸款",
+    "利息",
+    "實際年利率"
+   ],
+   "verify": "每月供款 = (100,000 + 100,000 × 4% × 3) ÷ 36 = $3,111.11；用年金公式反推，月利率約 0.626%，×12 ≈ 7.5%。"
+  },
+  {
+   "id": "m10",
+   "cat": "money",
+   "img": "stock",
+   "myth": "買高息股收股息，等於免費賺錢。",
+   "impact": "專揀息率高嘅股票，忽略咗股價本身可能長期向下，結果收息蝕價。",
+   "truth": "派息嗰日（除淨日），股價通常會大約跌返股息嘅金額，因為公司嘅錢派咗出去。例子：股價 $50 派 $2 息，除淨後股價大約 $48，你手上嘅總值（$48 + $2）冇變。長遠賺唔賺錢，要睇公司盈利同股價走勢，唔係淨睇息率。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "派息會令股價大約跌返股息金額，總值冇變。",
+   "tags": [
+    "股票",
+    "股息",
+    "高息股"
+   ],
+   "verify": "除淨前：股價 $50。除淨後：股價約 $48 + 現金股息 $2 = $50，總值不變（未計稅費同市場波動）。"
+  },
+  {
+   "id": "m11",
+   "cat": "money",
+   "img": "piggy",
+   "myth": "錢放喺銀行唔郁，就唔會蝕。",
+   "impact": "長期將大部分錢放喺低息戶口，以為最安全，其實購買力慢慢減少。",
+   "truth": "如果每年通脹 3%，而存款利息低過 3%，錢嘅購買力就會減少。例子：今日 $100 買到嘅嘢，10 年後要大約 $134；即係 10 年後嘅 $100 只等於今日大約 $74。唔係叫你去冒險，而係要知道「唔郁」都有成本。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "通脹 3% 嘅話，10 年後 $100 只等於今日大約 $74。",
+   "tags": [
+    "通脹",
+    "儲錢",
+    "存款"
+   ],
+   "verify": "1.03^10 ≈ 1.344；100 ÷ 1.344 ≈ 74.4。"
+  },
+  {
+   "id": "m12",
+   "cat": "money",
+   "img": "stock",
+   "myth": "今年賺 10%，明年蝕 10%，就打和。",
+   "impact": "高估自己嘅回報，低估咗波動嘅傷害。",
+   "truth": "百分比係用唔同嘅基數計。$100 賺 10% 變 $110，再蝕 10% 係蝕 $11，剩返 $99，即係蝕咗 1%。波動越大，傷害越大：賺 50% 再蝕 50%，就淨返 $75。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "賺 10% 再蝕 10%，其實係蝕 1%。",
+   "tags": [
+    "股票",
+    "回報",
+    "波動"
+   ],
+   "verify": "100 × 1.1 × 0.9 = 99；100 × 1.5 × 0.5 = 75。"
+  },
+  {
+   "id": "m13",
+   "cat": "money",
+   "img": "stock",
+   "myth": "股票跌咗 50%，之後升返 50% 就返本。",
+   "impact": "以為好快返本，結果揸住蝕錢貨等好耐。",
+   "truth": "跌 50% 之後，要升 100% 先返本。例子：$100 跌 50% 變 $50，$50 要升 $50，即係升 100%，先返到 $100。跌得越多，要升返嘅幅度越誇張：跌 80% 要升 400%。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "跌 50% 要升 100% 先返本。",
+   "tags": [
+    "股票",
+    "回報",
+    "返本"
+   ],
+   "verify": "50 × (1 + 100%) = 100；20 × (1 + 400%) = 100。"
+  },
+  {
+   "id": "m14",
+   "cat": "money",
+   "img": "creditcard",
+   "myth": "信用卡「0 息分期」完全冇成本。",
+   "impact": "以為冇利息就隨便分期，其實手續費加埋計，實際年利率可以超過一成。",
+   "truth": "好多「0 息」分期會收每月手續費。例子：$10,000 分 12 期，每月手續費 0.5%（$50），每月還 $883；換算做實際年利率大約係 10.9%。睇分期優惠要搵「實際年利率」嗰行。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "每月 0.5% 手續費嘅「0 息」分期，實際年利率大約 10.9%。",
+   "tags": [
+    "信用卡",
+    "分期",
+    "實際年利率"
+   ],
+   "verify": "每月還款 = 10,000 ÷ 12 + 50 = $883.33；用年金公式反推，月利率約 0.908%，×12 ≈ 10.9%。"
+  },
+  {
+   "id": "m15",
+   "cat": "money",
+   "img": "coins",
+   "myth": "加人工跳上高一級稅階，實收反而少咗。",
+   "impact": "有人唔敢加人工、唔敢接 OT，以為會「蝕稅」。",
+   "truth": "香港薪俸稅係累進稅率，跳上高一級，只係超出嗰部分用較高稅率計，之前嗰部分唔受影響。所以加人工之後，交嘅稅會多咗，但實收一定都係多咗。",
+   "src": "香港政府一站通〈薪俸稅及個人入息課稅稅率〉",
+   "url": "https://www.gov.hk/tc/residents/taxes/taxfiling/taxrates/salariesrates.htm",
+   "level": "已證實",
+   "fact": "香港薪俸稅係累進制，跳稅階只係超出部分用高啲稅率。",
+   "tags": [
+    "稅",
+    "薪俸稅",
+    "人工"
+   ]
+  },
+  {
+   "id": "m16",
+   "cat": "money",
+   "img": "piggy",
+   "myth": "銀行倒閉嘅話，啲存款會全部冇晒。",
+   "impact": "恐慌時一窩蜂提款，或者將錢全部放喺屋企，反而更危險。",
+   "truth": "香港有存款保障計劃，每個存戶喺每間成員銀行嘅合資格存款，最高保障 80 萬港元。不過結構性存款、股票、基金、債券等投資產品唔受保障。",
+   "src": "香港存款保障委員會〈存款保障計劃〉",
+   "url": "https://www.dps.org.hk/tc/",
+   "level": "已證實",
+   "fact": "香港存款保障計劃每間銀行最高保障 80 萬港元。",
+   "tags": [
+    "銀行",
+    "存款",
+    "存款保障"
+   ]
+  },
+  {
+   "id": "m17",
+   "cat": "money",
+   "img": "stock",
+   "myth": "定期定額（平均成本法）一定賺錢。",
+   "impact": "以為「月供」就穩賺，揀錯產品都照供，供足十年都可能蝕。",
+   "truth": "平均成本法只係分開時間入市，減低一次過買喺高位嘅風險，但唔保證賺錢。如果買嘅嘢長期向下，例如由 $10 每年跌到 $1，每月供幾多都係蝕。最終賺唔賺，仍然要睇投資產品本身。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "定期定額唔保證賺錢，要睇投資產品本身。",
+   "tags": [
+    "基金",
+    "月供",
+    "平均成本法"
+   ],
+   "verify": "每月投 $1,000，價錢由 $10 跌到 $1 再停喺 $1：持有股數 × $1 一定少過總投入。"
+  },
+  {
+   "id": "m18",
+   "cat": "money",
+   "img": "stock",
+   "myth": "一蚊股好平，升到兩蚊就翻倍，比貴股易升。",
+   "impact": "專買「低價股」，忽略咗佢哋好多時交投少、波動大，甚至係「仙股」陷阱。",
+   "truth": "股價高低本身唔代表平定貴。公司價值要睇市值（股價 × 股數）同盈利。$1 嘅股票有 100 億股，市值 100 億；$100 嘅股票有 1 億股，市值得 1 億。由 $1 升到 $2，同由 $100 升到 $200，一樣係要公司價值翻倍。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "股價高低唔代表平定貴，要睇市值同盈利。",
+   "tags": [
+    "股票",
+    "低價股",
+    "市值"
+   ],
+   "verify": "市值 = 股價 × 股數：$1 × 100 億 = 100 億；$100 × 1 億 = 1 億。翻倍都要市值 × 2。"
+  },
+  {
+   "id": "m19",
+   "cat": "money",
+   "img": "piggy",
+   "myth": "銀行賣嘅投資產品一定保本、受存款保障。",
+   "impact": "以為喺銀行買就安全，冇睇清楚就買咗結構性產品、基金或者債券，結果蝕錢。",
+   "truth": "存款保障計劃只保障合資格存款。結構性存款、股票、基金、債券、保險等產品都唔受存款保障；喺銀行買都可能蝕本金。買之前要睇清楚產品風險同條款。",
+   "src": "香港存款保障委員會〈存款保障計劃〉",
+   "url": "https://www.dps.org.hk/tc/",
+   "level": "已證實",
+   "fact": "銀行賣嘅投資產品唔受存款保障，可以蝕本金。",
+   "tags": [
+    "銀行",
+    "存款保障",
+    "投資產品"
+   ]
+  },
+  {
+   "id": "s14",
+   "cat": "science",
+   "img": null,
+   "myth": "人類係由黑猩猩進化出嚟。",
+   "impact": "令人誤解進化論，以為「點解而家啲黑猩猩唔變人」就推翻到進化論。",
+   "truth": "人類同黑猩猩係「表親」，唔係「子孫」關係：兩者有一個共同祖先，大約幾百萬年前分開，各自進化到今日。黑猩猩同人類一樣，都係進化咗咁耐嘅現代物種。",
+   "src": "史密森尼學會人類起源計劃〈Frequently Asked Questions〉",
+   "url": "https://humanorigins.si.edu/education/frequently-asked-questions",
+   "level": "已證實",
+   "fact": "人類同黑猩猩有共同祖先，唔係由黑猩猩變成。",
+   "tags": [
+    "進化",
+    "人類"
+   ]
+  },
+  {
+   "id": "s15",
+   "cat": "science",
+   "img": "earth",
+   "myth": "南北半球沖廁所，水嘅旋轉方向一定相反。",
+   "impact": "旅遊景點用「赤道示範」呃遊客，人亦會以為自己理解地球自轉。",
+   "truth": "地球自轉產生嘅科里奧利效應，喺颱風咁大嘅尺度先明顯。一個鋅盆或者馬桶咁細，效應細到可以忽略，水點轉主要由容器形狀、入水方向同水本身嘅擺動決定。",
+   "src": "Scientific American〈Can somebody finally settle this question: Does the water flushing down a toilet spin in different directions in different hemispheres?〉",
+   "url": "https://www.scientificamerican.com/article/can-somebody-finally-sett/",
+   "level": "已證實",
+   "fact": "馬桶同鋅盆嘅水點轉，同南北半球冇關係。",
+   "tags": [
+    "地球",
+    "物理",
+    "科里奧利"
+   ]
+  },
+  {
+   "id": "s16",
+   "cat": "science",
+   "img": "orbit",
+   "myth": "太空人喺太空站浮起，係因為太空冇地心吸力。",
+   "impact": "誤解重力同軌道，以為「出咗大氣層就冇重力」。",
+   "truth": "國際太空站離地面大約 400 公里，嗰度嘅地心吸力仲有地面大約 90%。太空人浮起，係因為太空站同佢哋一齊不停向地球「跌落去」（自由落體），同時橫向飛得夠快，所以一直繞住地球轉。",
+   "src": "美國太空總署（NASA）〈What Is Microgravity?〉",
+   "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-microgravity-grades-5-8/",
+   "level": "已證實",
+   "fact": "太空站嘅地心吸力仲有地面大約 90%，太空人浮係因為自由落體。",
+   "tags": [
+    "太空",
+    "重力",
+    "物理"
+   ]
+  },
+  {
+   "id": "s18",
+   "cat": "science",
+   "img": null,
+   "myth": "鑽石係由煤炭經高溫高壓變成。",
+   "impact": "誤解地球科學，亦令人對鑽石嘅來源有錯誤想像。",
+   "truth": "大部分天然鑽石喺地底大約 150 公里以下嘅地幔形成，比大部分煤層深好多。煤炭係由植物遺骸形成，而好多鑽石嘅年齡比陸地植物出現仲要早。",
+   "src": "Geology.com〈Diamonds from Coal?〉",
+   "url": "https://geology.com/articles/diamonds-from-coal/",
+   "level": "已證實",
+   "fact": "大部分天然鑽石唔係由煤炭變成。",
+   "tags": [
+    "地球",
+    "鑽石",
+    "地質"
+   ]
+  },
+  {
+   "id": "s19",
+   "cat": "science",
+   "img": null,
+   "myth": "玻璃其實係慢慢流動嘅液體，所以舊窗下面厚上面薄。",
+   "impact": "用錯例子解釋物質狀態，以訛傳訛。",
+   "truth": "常溫嘅玻璃係固體（非晶體固體），流動速度慢到喺幾十億年內都觀察唔到。舊窗玻璃厚薄唔均，係因為以前造玻璃嘅方法做唔到平均厚度，工匠通常將厚嗰邊放喺下面。",
+   "src": "Scientific American〈Fact or Fiction?: Glass Is a (Supercooled) Liquid〉",
+   "url": "https://www.scientificamerican.com/article/fact-fiction-glass-liquid/",
+   "level": "已證實",
+   "fact": "常溫玻璃係固體，舊窗厚薄唔均係製造方法造成。",
+   "tags": [
+    "物理",
+    "玻璃"
+   ]
+  },
+  {
+   "id": "s20",
+   "cat": "science",
+   "img": "lightning",
+   "myth": "雷暴時坐喺車入面安全，係因為車轆係橡膠。",
+   "impact": "以為穿膠鞋、踩膠墊就唔怕雷擊，喺戶外照樣冒險。",
+   "truth": "美國國家氣象局指出，保護車入面嘅人嘅係硬頂車嘅金屬車殼，而且要關埋窗；橡膠車轆唔會保護你，挨住車企喺外面一樣危險。開篷車、電單車同單車都冇呢種保護。",
+   "src": "美國國家氣象局〈Lightning and Cars〉",
+   "url": "https://www.weather.gov/safety/lightning-cars",
+   "level": "已證實",
+   "fact": "車保護你係因為金屬車殼，唔係橡膠車轆。",
+   "tags": [
+    "閃電",
+    "雷暴",
+    "安全"
+   ]
+  },
+  {
+   "id": "s21",
+   "cat": "science",
+   "img": null,
+   "myth": "狗只睇到黑白。",
+   "impact": "揀玩具、訓練用品時用錯顏色，例如紅色波喺草地上狗好難分辨。",
+   "truth": "狗唔係全色盲，佢哋係「二色視覺」，主要睇到藍色同黃色，難以分辨紅色同綠色。所以喺草地上，藍色或者黃色嘅玩具對狗嚟講最易見。",
+   "src": "美國養犬協會（AKC）〈Are Dogs Color Blind?〉",
+   "url": "https://www.akc.org/expert-advice/health/are-dogs-color-blind/",
+   "level": "已證實",
+   "fact": "狗睇到藍色同黃色，唔係只睇到黑白。",
+   "tags": [
+    "動物",
+    "狗",
+    "視覺"
+   ]
+  },
+  {
+   "id": "s23",
+   "cat": "science",
+   "img": "earth",
+   "myth": "指南針指住地球嘅北極點。",
+   "impact": "行山或者航海時唔知要修正，方向可以偏差好幾度。",
+   "truth": "指南針指住嘅係「磁北極」，同地理北極（地軸嘅北端）唔係同一個位置，而且磁北極會慢慢移動。兩者之間嘅角度叫「磁偏角」，地圖導航要按當地磁偏角修正。",
+   "src": "美國國家海洋及大氣管理局（NOAA）〈Magnetic Declination〉",
+   "url": "https://www.ncei.noaa.gov/products/magnetic-declination",
+   "level": "已證實",
+   "fact": "指南針指住磁北極，唔係地理北極。",
+   "tags": [
+    "地球",
+    "磁場",
+    "行山"
+   ]
+  },
+  {
+   "id": "s25",
+   "cat": "science",
+   "img": null,
+   "myth": "流星係天上嘅星星跌落嚟。",
+   "impact": "誤解宇宙同恆星，以為天上啲星會一粒粒少咗。",
+   "truth": "流星其實係太空入面嘅細石同塵粒，高速衝入地球大氣層時摩擦發熱、發光燒燬。佢哋通常細過一粒沙，同天上嘅恆星完全唔同；恆星係好似太陽咁、遠喺幾光年以外嘅巨大氣體球。",
+   "src": "美國太空總署（NASA）〈Meteors & Meteorites〉",
+   "url": "https://science.nasa.gov/solar-system/meteors-meteorites/",
+   "level": "已證實",
+   "fact": "流星係細石同塵粒喺大氣層燒燬，唔係星星跌落嚟。",
+   "tags": [
+    "太空",
+    "流星"
+   ]
+  },
+  {
+   "id": "s26",
+   "cat": "science",
+   "img": null,
+   "myth": "重嘅嘢一定跌得快過輕嘅嘢。",
+   "impact": "誤解重力，亦影響對物理同安全嘅判斷。",
+   "truth": "冇空氣阻力嘅話，所有物件跌落嚟嘅速度一樣。1971 年阿波羅 15 號太空人喺月球同時放低鎚仔同羽毛，兩樣同時落地。喺地球羽毛跌得慢，係因為空氣阻力，唔係因為佢輕。",
+   "src": "美國太空總署（NASA）〈The Apollo 15 Hammer-Feather Drop〉",
+   "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_15_feather_drop.html",
+   "level": "已證實",
+   "fact": "冇空氣阻力時，鎚仔同羽毛會同時落地。",
+   "tags": [
+    "物理",
+    "重力",
+    "太空"
+   ]
+  },
+  {
+   "id": "s27",
+   "cat": "science",
+   "img": "fridge",
+   "myth": "熱到頂唔順，打開雪櫃門可以令間屋涼啲。",
+   "impact": "雪櫃摩打不停咁做，嘥電之餘，間屋仲會熱啲，啲餸亦會變壞。",
+   "truth": "雪櫃唔會「製造凍」，佢只係將入面嘅熱泵去後面散熱片，排返出房間。門打開嘅話，前面吹出嚟嘅凍氣同後面排出嘅熱氣互相抵銷，再加埋摩打本身發熱，整體反而令房間更熱。",
+   "src": "物理推導（熱力學第一定律）",
+   "url": "",
+   "level": "已證實",
+   "fact": "打開雪櫃門只會令房間更熱。",
+   "tags": [
+    "物理",
+    "雪櫃",
+    "慳電"
+   ],
+   "verify": "雪櫃排出嘅熱 = 由入面抽走嘅熱 + 摩打用嘅電能。門打開時兩邊都喺同一間房，淨效果係房間多咗摩打嘅電能熱量。"
+  },
+  {
+   "id": "s28",
+   "cat": "science",
+   "img": null,
+   "myth": "沙漠一定好熱。",
+   "impact": "去沙漠旅行冇帶夠禦寒衣物，夜晚氣溫可以急跌。",
+   "truth": "沙漠係按「雨量好少」嚟定義，唔係按溫度。好多沙漠日夜溫差好大，夜晚可以跌到好凍；亦有寒冷嘅沙漠，例如蒙古嘅戈壁沙漠冬天非常寒冷。",
+   "src": "美國地質調查局（USGS）〈Deserts: Geology and Resources – What is a desert?〉",
+   "url": "https://pubs.usgs.gov/gip/deserts/what/",
+   "level": "已證實",
+   "fact": "沙漠係按雨量少定義，唔一定熱。",
+   "tags": [
+    "地球",
+    "沙漠",
+    "天氣"
+   ]
+  },
+  {
+   "id": "s30",
+   "cat": "science",
+   "img": "earth",
+   "myth": "科學家可以預測地震幾時發生。",
+   "impact": "網上「預言」某日大地震，引起恐慌；又有人因此放鬆平時嘅防災準備。",
+   "truth": "美國地質調查局指出，從來冇科學家成功預測過大地震（指出準確嘅日期、時間、地點同強度），亦唔預期短期內做得到。科學家只可以計算某地區喺若干年內發生地震嘅機會率。",
+   "src": "美國地質調查局（USGS）〈Can you predict earthquakes?〉",
+   "url": "https://www.usgs.gov/faqs/can-you-predict-earthquakes",
+   "level": "已證實",
+   "fact": "現時冇人可以準確預測地震幾時發生。",
+   "tags": [
+    "地震",
+    "地球",
+    "謠言"
+   ]
+  },
+  {
+   "id": "s31",
+   "cat": "science",
+   "img": null,
+   "myth": "彩虹剛好有七種顏色。",
+   "impact": "以為「七色」係大自然規律，其實只係人為分類。",
+   "truth": "彩虹係陽光經水點折射，形成一條連續嘅光譜，顏色之間冇明確界線。「七色」源自牛頓將光譜分成七段（部分原因係佢想同音樂七個音對應）。唔同文化分成唔同數目嘅顏色都有。",
+   "src": "物理推導（光嘅折射）",
+   "url": "",
+   "level": "已證實",
+   "fact": "彩虹係連續光譜，「七色」只係人為分類。",
+   "tags": [
+    "物理",
+    "光",
+    "彩虹"
+   ],
+   "verify": "可見光波長由大約 380 至 750 納米連續變化，三稜鏡或者彩虹都係連續光譜，冇七條分界線。"
+  },
+  {
+   "id": "m20",
+   "cat": "money",
+   "img": "coins",
+   "myth": "強積金／基金每年收 1.5% 管理費，好少啫。",
+   "impact": "揀基金唔睇收費，長年累月少咗一大截退休金。",
+   "truth": "收費每年都喺你成個結餘度扣，會同回報一齊「複息」。例子：$100,000 放 30 年，未扣費每年回報 6%，會變大約 $574,000；扣 1.5% 費用後淨回報 4.5%，只得大約 $375,000，少咗大約三分之一。比較基金時要睇「基金開支比率」。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "每年 1.5% 收費，30 年可以食咗大約三分之一嘅回報。",
+   "tags": [
+    "強積金",
+    "基金",
+    "收費",
+    "複息"
+   ],
+   "verify": "100,000 × 1.06^30 ≈ 574,349；100,000 × 1.045^30 ≈ 374,532；374,532 ÷ 574,349 ≈ 0.65。"
+  },
+  {
+   "id": "p10",
+   "cat": "mind",
+   "img": null,
+   "myth": "一間房要有成百幾人，先會有兩個人同日生日。",
+   "impact": "低估「巧合」出現嘅機會，一遇到巧合就以為係命中注定或者有人做手腳。",
+   "truth": "只要 23 個人，至少兩個人同日生日嘅機會已經超過一半（大約 50.7%）；去到 57 人就超過 99%。因為要比較嘅係「每一對人」，23 個人已經有 253 對。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "23 個人入面，有兩個人同日生日嘅機會已經超過一半。",
+   "tags": [
+    "機率",
+    "巧合",
+    "生日"
+   ],
+   "verify": "全部唔同日生日嘅機會 = 365/365 × 364/365 × … × 343/365 ≈ 0.493，所以至少一對同日 ≈ 1 − 0.493 = 50.7%。23 人配對數 = 23 × 22 ÷ 2 = 253。"
+  },
+  {
+   "id": "p11",
+   "cat": "mind",
+   "img": null,
+   "myth": "三道門揀咗一道，主持開咗另一道冇獎嘅門，換唔換都係五五波。",
+   "impact": "憑直覺做決定，喺遊戲、投資同生活選擇入面錯失較好嘅機會。",
+   "truth": "如果主持一定會開一道冇獎嘅門，換門贏嘅機會係 2/3，唔換只得 1/3。因為你第一次揀中獎嘅機會只有 1/3；其餘 2/3 嘅情況，獎都喺另外兩道門，而主持已經幫你剔走咗冇獎嗰道。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "主持開咗冇獎嘅門之後，換門贏嘅機會係 2/3。",
+   "tags": [
+    "機率",
+    "蒙提霍爾",
+    "決策"
+   ],
+   "verify": "唔換：贏 = 第一次揀中 = 1/3。換：第一次揀錯（機會 2/3）時，剩低嗰道一定有獎，所以贏 = 2/3。"
+  },
+  {
+   "id": "p12",
+   "cat": "mind",
+   "img": null,
+   "myth": "驗病準確度 99%，驗到陽性即係 99% 有病。",
+   "impact": "收到陽性結果就驚到失眠，甚至未覆檢就做咗唔必要嘅治療。",
+   "truth": "仲要睇呢個病本身有幾普遍。假設 1% 人有病，檢測對有病同冇病嘅人都係 99% 準：一萬人入面，99 個病人驗到陽性，但 9,900 個健康人都有 99 個「假陽性」。所以陽性入面真係有病嘅只有大約一半。所以醫生通常會安排覆檢。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "病越罕見，陽性結果入面「假陽性」嘅比例就越高。",
+   "tags": [
+    "機率",
+    "醫療",
+    "基本率"
+   ],
+   "verify": "10,000 人：有病 100 人 × 99% = 99 個真陽性；冇病 9,900 人 × 1% = 99 個假陽性。99 ÷ (99 + 99) = 50%。"
+  },
+  {
+   "id": "p13",
+   "cat": "mind",
+   "img": null,
+   "myth": "「佢係銀行職員兼熱心環保」聽落比「佢係銀行職員」更有可能。",
+   "impact": "描述越具體越似真，令人容易信咗編得仔細嘅故事同騙局。",
+   "truth": "兩件事同時發生嘅機會，一定唔會大過其中一件單獨發生。所有「銀行職員兼熱心環保」嘅人都係「銀行職員」，所以後者嘅機會一定更大或者相等。呢個叫「合取謬誤」。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "加多個條件，件事嘅機會只會減少，唔會增加。",
+   "tags": [
+    "機率",
+    "合取謬誤",
+    "騙局"
+   ],
+   "verify": "設 A = 銀行職員，B = 熱心環保。A 且 B 係 A 嘅一部分，所以 P(A 且 B) ≤ P(A)。"
+  },
+  {
+   "id": "p14",
+   "cat": "mind",
+   "img": null,
+   "myth": "考差咗鬧完會進步、考得好讚完會退步，所以鬧比讚有效。",
+   "impact": "老師、家長同上司因此覺得鬧人最有效，錯誤咁用懲罰。",
+   "truth": "成績有一部分係運氣。特別差嘅一次，下次就算乜都唔做，都有好大機會「回落」返平時水平（變好）；特別好嘅一次，下次都較大機會回落（變差）。呢個叫「均值回歸」，同鬧定讚冇必然關係。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "極端好或者極端差之後，下次多數會回落返平時水平，同獎罰無關。",
+   "tags": [
+    "統計",
+    "均值回歸",
+    "教育"
+   ],
+   "verify": "設每次成績 = 實力 + 隨機運氣。極端低分通常包含咗較大嘅壞運氣，下次運氣大致係平均，所以分數預期會向實力靠攏。"
+  },
+  {
+   "id": "p15",
+   "cat": "mind",
+   "img": null,
+   "myth": "雪糕賣得多嗰陣遇溺都多，所以食雪糕會令人遇溺。",
+   "impact": "將「一齊出現」當成「一樣導致另一樣」，被誤導性新聞同廣告影響決定。",
+   "truth": "兩樣嘢一齊升跌（相關），唔代表一樣導致另一樣（因果）。熱天時食雪糕嘅人多、游水嘅人亦多，「熱天」先係兩者共同嘅原因。要證明因果，需要對照實驗或者排除其他因素。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "兩樣嘢一齊升跌，唔代表一樣導致另一樣。",
+   "tags": [
+    "統計",
+    "相關",
+    "因果"
+   ],
+   "verify": "夏天 → 雪糕銷量上升；夏天 → 游水人數上升 → 遇溺上升。兩者相關，但雪糕同遇溺之間冇直接因果。"
+  },
+  {
+   "id": "p16",
+   "cat": "mind",
+   "img": null,
+   "myth": "細醫院同大醫院，出現「男嬰超過六成」嘅日子應該差唔多。",
+   "impact": "用細樣本嘅結果下結論，例如淨係問咗幾個朋友就覺得代表晒全部人。",
+   "truth": "樣本越細，結果越容易偏離平均。假設男嬰女嬰機會各半：每日 15 個 BB 嘅醫院，大約 15% 日子會出現男嬰超過六成；每日 45 個嘅醫院，只係大約 7%。細樣本出現「驚人結果」係正常嘅。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "樣本越細，越容易出現極端結果。",
+   "tags": [
+    "統計",
+    "樣本",
+    "小數定律"
+   ],
+   "verify": "用二項分佈：P(男嬰 > 60%)，n = 15 時 ≈ 15.1%；n = 45 時 ≈ 6.8%。"
+  },
+  {
+   "id": "p17",
+   "cat": "mind",
+   "img": "lottery",
+   "myth": "六合彩買 1、2、3、4、5、6 呢組號碼，中獎機會特別低。",
+   "impact": "花時間研究「冷門號碼」、「熱門號碼」，以為揀號可以提高中獎機會。",
+   "truth": "每一組 6 個號碼中頭獎嘅機會都一樣，都係 13,983,816 分之 1。1 至 6 睇落「唔似隨機」，但其他組合都一樣罕見。揀號唯一影響嘅係萬一中咗要同幾多人分獎金。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "六合彩每一組號碼中頭獎嘅機會都一樣。",
+   "tags": [
+    "機率",
+    "六合彩",
+    "賭博"
+   ],
+   "verify": "由 49 個號碼揀 6 個嘅組合數 = C(49, 6) = 13,983,816，每組機會相同。"
+  },
+  {
+   "id": "p18",
+   "cat": "mind",
+   "img": null,
+   "myth": "新聞話某樣嘢令風險「增加 100%」，好恐怖。",
+   "impact": "被聳人聽聞嘅標題嚇親，或者被「減低 50% 風險」嘅廣告吸引買產品。",
+   "truth": "「增加 100%」係相對風險，要睇返原本嘅風險有幾大。如果風險由一萬分之一變成一萬分之二，相對係增加 100%，但絕對風險只係多咗萬分之一。睇新聞同廣告要問：「原本幾多？而家幾多？」",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "相對風險增加 100%，絕對風險可能只係多咗萬分之一。",
+   "tags": [
+    "統計",
+    "風險",
+    "新聞"
+   ],
+   "verify": "1/10,000 → 2/10,000：相對增加 = (2 − 1) ÷ 1 = 100%；絕對增加 = 1/10,000 = 0.01%。"
+  },
+  {
+   "id": "p19",
+   "cat": "mind",
+   "img": null,
+   "myth": "平均人工係三萬，即係大部分人都搵三萬左右。",
+   "impact": "同「平均」比較之後覺得自己好失敗，或者被誤導性數字影響判斷。",
+   "truth": "少數極高收入會將平均數拉高。例子：9 個人月入 $20,000，1 個人月入 $200,000，平均係 $38,000，但 10 個人入面有 9 個都只係 $20,000。睇收入、樓價呢類數據，「中位數」通常更有代表性。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "平均數會被極端值拉高，中位數更代表一般人。",
+   "tags": [
+    "統計",
+    "平均數",
+    "中位數"
+   ],
+   "verify": "(9 × 20,000 + 200,000) ÷ 10 = 38,000；中位數 = 20,000。"
+  },
+  {
+   "id": "p20",
+   "cat": "mind",
+   "img": null,
+   "myth": "「手術存活率 90%」同「死亡率 10%」，我嘅判斷唔會有分別。",
+   "impact": "同一個資訊換個講法，就影響咗醫療、投資同購物決定。",
+   "truth": "兩句講嘅係同一件事，但研究發現人聽到「90% 存活」會比聽到「10% 死亡」更願意做手術，呢個叫「框架效應」。遇到重要決定，可以將兩種講法都講一次，再做判斷。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "同一件事換個講法，會影響人嘅選擇。",
+   "tags": [
+    "決策",
+    "框架效應",
+    "醫療"
+   ],
+   "verify": "存活率 90% = 100 人入面 90 人存活 = 10 人死亡 = 死亡率 10%，資訊完全相同。"
+  },
+  {
+   "id": "p21",
+   "cat": "mind",
+   "img": "dice",
+   "myth": "每次輸咗就雙倍落注（加倍追），遲早一定贏返。",
+   "impact": "連輸幾次注碼就大到難以承受，一次爆煲輸晒本金。",
+   "truth": "連輸時注碼會幾何級數咁升：由 $10 開始，連輸 10 次，總共輸咗 $10,230，第 11 注要落 $10,240，就算贏咗都只係淨賺 $10。賭場仲有注碼上限，長遠計莊家優勢唔會變。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "加倍追注最多只係贏返第一注，但會有一次過輸大錢嘅風險。",
+   "tags": [
+    "賭博",
+    "機率",
+    "追注"
+   ],
+   "verify": "10 + 20 + 40 + … + 5,120 = 10 × (2^10 − 1) = 10,230；第 11 注 = 10 × 2^10 = 10,240；贏咗淨賺 = 10,240 − 10,230 = 10。"
+  },
+  {
+   "id": "p22",
+   "cat": "mind",
+   "img": null,
+   "myth": "一百萬同十億，都係「好多錢」，差唔遠。",
+   "impact": "睇唔出大數字嘅分別，容易被巨額開支、詐騙金額或者政府預算數字誤導。",
+   "truth": "十億係一百萬嘅一千倍。換成時間就好易明：一百萬秒大約係 11.6 日；十億秒大約係 31.7 年。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "一百萬秒大約 11.6 日，十億秒大約 31.7 年。",
+   "tags": [
+    "數字",
+    "大數",
+    "直覺"
+   ],
+   "verify": "1,000,000 ÷ 86,400 ≈ 11.6 日；1,000,000,000 ÷ 86,400 ÷ 365.25 ≈ 31.7 年。"
+  },
+  {
+   "id": "p23",
+   "cat": "mind",
+   "img": "creditcard",
+   "myth": "八折再八折，即係六折。",
+   "impact": "高估咗折扣，以為好抵就買多咗。",
+   "truth": "第二次八折係喺已經打咗折嘅價錢上再計。$100 打八折係 $80，再打八折係 $64，即係六四折，唔係六折。同樣道理，「七折再額外八折」係五六折，唔係五折。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "八折再八折係六四折，唔係六折。",
+   "tags": [
+    "折扣",
+    "購物",
+    "百分比"
+   ],
+   "verify": "100 × 0.8 × 0.8 = 64；100 × 0.7 × 0.8 = 56。"
+  },
+  {
+   "id": "p24",
+   "cat": "mind",
+   "img": null,
+   "myth": "網上投票有十萬人參加，結果一定代表到大眾意見。",
+   "impact": "用自願參加嘅網上投票去判斷民意，結論可以大錯特錯。",
+   "truth": "樣本大唔等於有代表性。自願參加嘅投票，參加者多數係對題目特別有興趣或者立場強烈嘅人（自選樣本偏差）。一個隨機抽樣、只有一千人嘅調查，往往比十萬人嘅自願投票更準。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "樣本大唔等於有代表性，自願參加嘅投票會有偏差。",
+   "tags": [
+    "統計",
+    "民調",
+    "樣本"
+   ],
+   "verify": "自願投票：參加機會取決於個人立場 → 樣本比例 ≠ 大眾比例；樣本再大都只會更準確咁反映「有興趣投票嗰班人」嘅意見。"
+  },
+  {
+   "id": "p25",
+   "cat": "mind",
+   "img": null,
+   "myth": "感冒食咗偏方幾日就好返，證明偏方有效。",
+   "impact": "繼續用冇效甚至有害嘅偏方，遇到真正嚴重嘅病都唔睇醫生。",
+   "truth": "好多病（例如傷風）本身就會自己好返。無論食唔食偏方，幾日後都會好轉，所以「食完好返」證明唔到偏方有效。要知道有冇效，需要同冇食嘅人比較（對照實驗）。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "病自己會好，「食完好返」唔等於偏方有效。",
+   "tags": [
+    "偏方",
+    "因果",
+    "健康"
+   ],
+   "verify": "設一個病冇治療 7 日內自然痊癒率接近 100%：食偏方組同冇食組都會喺 7 日內好返，單睇食偏方組無法分辨偏方有冇作用。"
+  },
+  {
+   "id": "p26",
+   "cat": "mind",
+   "img": null,
+   "myth": "擲銀仔，「公公公公公」比「公字公公字」少見好多。",
+   "impact": "覺得某啲結果「唔似隨機」，於是以為有規律可跟，或者懷疑被做手腳。",
+   "truth": "擲 5 次，每一個指定次序出現嘅機會都係 1/32。「全部公」睇落特別，但「公字公公字」呢個指定次序一樣罕見。我哋覺得前者少見，只係因為後者屬於「睇落冇規律」嗰一大堆結果。",
+   "src": "數學計算（可以自己驗算）",
+   "url": "",
+   "level": "已證實",
+   "fact": "每一個指定嘅銀仔次序，出現機會都一樣。",
+   "tags": [
+    "機率",
+    "隨機",
+    "銀仔"
+   ],
+   "verify": "每次公字各 1/2，5 次獨立：任何指定次序機會 = (1/2)^5 = 1/32。"
+  },
+  {
+   "id": "p27",
+   "cat": "mind",
+   "img": null,
+   "myth": "我記得好清楚，記憶就好似錄影咁準確。",
+   "impact": "目擊證人好有信心咁指認錯人，可以令無辜嘅人入獄。",
+   "truth": "記憶唔係錄影，每次回想都會重新組合，可能受事後資訊、引導性問題影響而改變。美國「清白專案」（Innocence Project）指出，喺靠 DNA 證據平反嘅錯判案件入面，絕大多數都涉及目擊證人指認錯誤。",
+   "src": "清白專案（Innocence Project）〈Eyewitness Misidentification〉",
+   "url": "https://innocenceproject.org/eyewitness-misidentification/",
+   "level": "已證實",
+   "fact": "記憶會被事後資訊改寫，目擊證人好有信心都可能認錯人。",
+   "tags": [
+    "記憶",
+    "法律",
+    "目擊證人"
+   ]
+  },
+  {
+   "id": "k08",
+   "cat": "hk",
+   "img": "fridge",
+   "myth": "過咗「此日期前最佳」就一定要掉。",
+   "impact": "將仲食得嘅食物掉咗，嘥錢又製造廚餘；反而真正要緊嘅「此日期或之前食用」就冇留意。",
+   "truth": "食物安全中心指出，「此日期前最佳」關乎品質而唔係安全，過咗期通常仍然可以安全食用，只係味道質感可能差啲（變壞咗就唔好食）。「此日期或之前食用」先關乎安全，過咗就唔好食。兩種日期都只適用於未開封食物。",
+   "src": "食物安全中心〈「此日期或之前食用」及「此日期前最佳」〉",
+   "url": "https://www.cfs.gov.hk/tc_chi/consumer_zone/safefood_all/useby_bestbefore.html",
+   "level": "已證實",
+   "fact": "「此日期前最佳」關乎品質，「此日期或之前食用」先關乎安全。",
+   "tags": [
+    "食物安全",
+    "食用日期",
+    "廚餘"
+   ]
+  },
+  {
+   "id": "k09",
+   "cat": "hk",
+   "img": "fridge",
+   "myth": "放咗入雪櫃，啲細菌就唔會再生長。",
+   "impact": "冷藏即食食物（例如煙三文魚、凍肉）放太耐照食，孕婦、長者同免疫力低嘅人可能感染李斯特菌，後果嚴重。",
+   "truth": "食物安全中心指出，李斯特菌同其他致病菌唔同，喺攝氏 0 度嘅環境下都可以慢慢繁殖，冷藏即食食品有充足時間嘅話，細菌數量可以去到致病水平。雪櫃只係減慢大部分細菌生長，唔係殺菌；冷藏食物都要留意保質期。",
+   "src": "食物安全中心〈李斯特菌及其規控〉",
+   "url": "https://www.cfs.gov.hk/tc_chi/multimedia/multimedia_pub/multimedia_pub_fsf_12_01.html",
+   "level": "已證實",
+   "fact": "李斯特菌喺雪櫃溫度都可以慢慢繁殖。",
+   "tags": [
+    "食物安全",
+    "雪櫃",
+    "李斯特菌"
+   ]
+  },
+  {
+   "id": "k10",
+   "cat": "hk",
+   "img": null,
+   "myth": "煮好嘅飯放喺枱面一晚，翻炒熱透就冇事。",
+   "impact": "隔夜飯喺室溫放太耐，用嚟做炒飯，可能引致嘔吐、肚痾等食物中毒。",
+   "truth": "食物安全中心指出，煮飯殺唔死蠟樣芽孢桿菌嘅孢子；熟飯長時間放喺室溫，孢子會發芽並產生耐熱毒素，再加熱都未必破壞到。唔係即刻食嘅飯，應該盡快冷卻，放入雪櫃（攝氏 4 度或以下）。",
+   "src": "食物安全中心〈炒飯中的蠟樣芽孢桿菌〉",
+   "url": "https://www.cfs.gov.hk/tc_chi/multimedia/multimedia_pub/multimedia_pub_fsf_192_03.html",
+   "level": "已證實",
+   "fact": "熟飯放喺室溫太耐會產生耐熱毒素，翻熱都未必安全。",
+   "tags": [
+    "食物安全",
+    "炒飯",
+    "隔夜飯"
+   ]
+  },
+  {
+   "id": "k11",
+   "cat": "hk",
+   "img": "thermometer",
+   "myth": "行山熱到頂唔順，飲罐啤酒解渴最好。",
+   "impact": "酒精會加快身體經小便流失水分，喺酷熱天氣下更容易脫水同中暑。",
+   "truth": "衞生防護中心建議，酷熱天氣要適時補充水分，避免飲含咖啡因同酒精嘅飲品，以免加速水分經泌尿系統流失。出現頭暈、頭痛、作嘔、氣促或者神志不清，要即刻休息同求助。",
+   "src": "衞生防護中心〈夏日炎炎 慎防中暑〉",
+   "url": "https://www.chp.gov.hk/tc/static/90064.html",
+   "level": "已證實",
+   "fact": "酷熱天氣飲酒會加快流失水分，增加中暑風險。",
+   "tags": [
+    "中暑",
+    "行山",
+    "飲酒"
+   ]
+  },
+  {
+   "id": "k12",
+   "cat": "hk",
+   "img": "vaccine",
+   "myth": "後生又健康，唔使打流感針。",
+   "impact": "健康人士都有機會患上嚴重流感，亦可能將病毒傳俾屋企嘅長者同小朋友。",
+   "truth": "衞生防護中心指出，過往健康人士亦有可能患上嚴重流感，因此除咗有已知禁忌症嘅人，所有年滿 6 個月或以上嘅人士都應該每年打季節性流感疫苗。",
+   "src": "衞生防護中心〈季節性流感疫苗接種常見問題〉",
+   "url": "https://www.chp.gov.hk/tc/features/100764.html",
+   "level": "已證實",
+   "fact": "健康人士都可能患嚴重流感，6 個月以上人士都應該每年打流感針。",
+   "tags": [
+    "流感",
+    "疫苗"
+   ]
+  },
+  {
+   "id": "k13",
+   "cat": "hk",
+   "img": "hkskyline",
+   "myth": "香港從來冇地震。",
+   "impact": "以為香港完全唔受地震影響，對建築安全同防災知識冇興趣。",
+   "truth": "香港雖然唔係處於主要地震帶，但天文台自 1979 年起記錄咗唔少本地有感地震：有啲來自廣東、台灣或者菲律賓，亦有啲震中就喺大嶼山、米埔附近。大部分都輕微，但「從來冇」係錯嘅。",
+   "src": "香港天文台〈List of details of locally felt earth tremors since 1979〉",
+   "url": "https://www.hko.gov.hk/en/gts/equake/79reporte.htm",
+   "level": "已證實",
+   "fact": "天文台自 1979 年起記錄咗唔少本地有感地震。",
+   "tags": [
+    "地震",
+    "天文台"
+   ]
+  },
+  {
+   "id": "k14",
+   "cat": "hk",
+   "img": "piggy",
+   "myth": "強積金自願供款唔可以扣稅。",
+   "impact": "錯過合法嘅扣稅方法，又或者以為所有自願供款都可以扣稅而供錯戶口。",
+   "truth": "積金局指出，存入「可扣稅自願性供款」（TVC）戶口嘅供款，可以喺薪俸稅或者個人入息課稅扣稅，每年上限 $60,000（同合資格延期年金保費合計）。不過 TVC 要保存到 65 歲先可以提取；普通自願性供款就唔可以扣稅。",
+   "src": "積金局〈可扣稅自願性供款〉",
+   "url": "https://www.mpfa.org.hk/mpf-system/voluntary-contributions-or-tax-deductible-voluntary-contributions/tax-deductible-voluntary-contributions",
+   "level": "已證實",
+   "fact": "TVC 戶口供款每年最多扣稅 $60,000，但要保存到 65 歲。",
+   "tags": [
+    "強積金",
+    "扣稅",
+    "退休"
+   ]
+  },
+  {
+   "id": "k15",
+   "cat": "hk",
+   "img": "piggy",
+   "myth": "辭職或者轉工，就可以攞返啲強積金。",
+   "impact": "計劃辭工後用強積金應急，結果發現攞唔到，財務安排出錯。",
+   "truth": "積金局指出，強積金法例規定計劃成員年滿 65 歲先可以提取，轉工只係將戶口轉移。只有法例訂明嘅特定情況（例如提早退休、永久離開香港、完全喪失行為能力、罹患末期疾病等）先可以提早提取。",
+   "src": "積金局〈提取強積金〉",
+   "url": "https://www.mpfa.org.hk/tc/mpf-system/withdrawal-of-mpf",
+   "level": "已證實",
+   "fact": "強積金一般要年滿 65 歲先可以提取，轉工唔可以攞返。",
+   "tags": [
+    "強積金",
+    "退休",
+    "轉工"
+   ]
+  },
+  {
+   "id": "k16",
+   "cat": "hk",
+   "img": "ecig",
+   "myth": "電子煙同加熱煙喺香港買賣係合法嘅。",
+   "impact": "有人以為可以照帶入境或者賣俾朋友，結果觸犯法例。",
+   "truth": "由 2022 年 4 月 30 日起，任何人喺香港都唔可以進口、推廣、製造、售賣或者為商業目的而管有另類吸煙產品，包括電子煙、加熱煙同草本煙。",
+   "src": "衞生署控煙酒辦公室〈《2021年吸煙(公眾衞生)(修訂)條例》〉",
+   "url": "https://www.taco.gov.hk/t/tc_chi/whatsnew/amendment_order_2021.html",
+   "level": "已證實",
+   "fact": "香港由 2022 年 4 月 30 日起禁止進口和售賣電子煙。",
+   "tags": [
+    "電子煙",
+    "法例",
+    "吸煙"
+   ]
+  },
+  {
+   "id": "k17",
+   "cat": "hk",
+   "img": null,
+   "myth": "泳灘掛紅旗，只要喺岸邊淺水玩就冇事。",
+   "impact": "大浪、紅潮或者海水污染時落水，可能俾浪捲走或者生病。",
+   "truth": "康文署指出，泳灘掛起紅旗（例如因為大浪、紅潮或者海水受污染）時，切勿下水；亦唔好喺冇救生員當值嘅時間下水。",
+   "src": "康樂及文化事務署〈公眾泳灘安全指引〉",
+   "url": "https://www.lcsd.gov.hk/tc/swimhandbook/wsa/wsa2.html",
+   "level": "已證實",
+   "fact": "泳灘掛紅旗時切勿下水。",
+   "tags": [
+    "游水",
+    "泳灘",
+    "安全"
+   ]
+  },
+  {
+   "id": "k18",
+   "cat": "hk",
+   "img": null,
+   "myth": "來電顯示係警察或者政府號碼，就一定係真。",
+   "impact": "騙徒冒充警察、入境處、海關，恐嚇市民「涉及案件」，騙走個人資料同積蓄。",
+   "truth": "警方指出，騙徒會用技術更改來電號碼，令佢顯示為警方、入境處或者其他政府機構嘅電話。有懷疑就收線，打 18222「防騙易」熱線查證，唔好喺電話提供銀行資料或者轉賬。",
+   "src": "香港警務處〈假香港官員來電？拆解詐騙伎倆全攻略〉",
+   "url": "https://www.police.gov.hk/offbeat120/scam/03_hk-fake-official-scam-guide.html",
+   "level": "已證實",
+   "fact": "騙徒可以偽造來電顯示，扮成警察或者政府號碼。",
+   "tags": [
+    "騙案",
+    "電話",
+    "假官員"
+   ],
+   "app": "com.soren.scam_lab",
+   "cta": "想親身拆一次假官員騙局？玩《拆騙局》"
+  },
+  {
+   "id": "k19",
+   "cat": "hk",
+   "img": null,
+   "myth": "「內地公安」打嚟話我涉案，要轉錢去「安全帳戶」配合調查。",
+   "impact": "受害人因為驚被拘捕而轉走大筆積蓄，甚至被要求唔准同家人聯絡。",
+   "truth": "警方強調，內地公安唔會跨境執法，更加唔會要求你提供銀行帳戶或者密碼。所謂「保證金」、「安全帳戶」都係騙局。有懷疑即刻收線，打 18222 或者 999。",
+   "src": "香港警務處〈冒充內地官員電話騙案特徵一文看清〉",
+   "url": "https://www.police.gov.hk/offbeat120/scam/04_hk-fake-mainland-official-guide.html",
+   "level": "已證實",
+   "fact": "內地公安唔會跨境執法，「安全帳戶」一定係騙局。",
+   "tags": [
+    "騙案",
+    "假官員",
+    "轉賬"
+   ],
+   "app": "com.soren.scam_lab",
+   "cta": "想親身拆一次假官員騙局？玩《拆騙局》"
+  },
+  {
+   "id": "k20",
+   "cat": "hk",
+   "img": "thunder",
+   "myth": "黃雨即係落多少少雨，唔使理。",
+   "impact": "照常去郊外、行河邊或者低窪地方，遇到水浸同山洪就好危險。",
+   "truth": "天文台指出，黃色暴雨警告信號表示香港廣泛地區已錄得或者預料會有每小時雨量超過 30 毫米嘅大雨，而且雨勢可能持續。市民應該採取預防措施，避免接近容易氾濫嘅河道。",
+   "src": "香港天文台〈暴雨警告系統〉",
+   "url": "https://www.hko.gov.hk/tc/wservice/warning/rainstor.htm",
+   "level": "已證實",
+   "fact": "黃雨代表每小時雨量超過 30 毫米，要採取預防措施。",
+   "tags": [
+    "暴雨",
+    "天文台",
+    "安全"
+   ]
+  },
+  {
+   "id": "h36",
+   "cat": "health",
+   "img": null,
+   "myth": "煲完湯啲營養全部喺湯度，湯渣冇營養，掉咗佢。",
+   "impact": "掉咗湯渣，白白浪費咗膳食纖維同蛋白質，淨飲湯仲可能飲咗太多鹽同脂肪。",
+   "truth": "衞生防護中心指出，食材入面嘅膳食纖維、蛋白質同其他營養成分仍然保留喺湯渣入面，建議連湯渣一齊食。",
+   "src": "衞生防護中心〈常見有關飲食的謬誤〉",
+   "url": "https://www.chp.gov.hk/tc/static/90044.html",
+   "level": "已證實",
+   "fact": "湯渣仍然有膳食纖維同蛋白質，應該連湯渣一齊食。",
+   "tags": [
+    "飲食",
+    "煲湯",
+    "營養"
+   ]
+  },
+  {
+   "id": "h37",
+   "cat": "health",
+   "img": "frozen",
+   "myth": "凍肉嘅營養一定唔及新鮮肉。",
+   "impact": "堅持只買貴好多嘅新鮮肉，增加家庭開支。",
+   "truth": "衞生防護中心指出，現今雪藏肉類嘅方法可以保存肉類嘅營養，凍肉價錢相對便宜，可以考慮選購。記住要正確解凍（喺雪櫃或者用微波爐，唔好放喺枱面）。",
+   "src": "衞生防護中心〈常見有關飲食的謬誤〉",
+   "url": "https://www.chp.gov.hk/tc/static/90044.html",
+   "level": "已證實",
+   "fact": "雪藏可以保存肉類營養，凍肉唔一定比新鮮肉差。",
+   "tags": [
+    "飲食",
+    "凍肉",
+    "營養"
+   ]
+  },
+  {
+   "id": "h38",
+   "cat": "health",
+   "img": null,
+   "myth": "食維他命丸、補品同健康飲品，身體會更健康。",
+   "impact": "花大錢買補充劑，以為可以代替均衡飲食；部分人仲可能食過量或者同藥物相沖。",
+   "truth": "衞生防護中心指出，對大部分人嚟講，均衡飲食同健康生活方式已經可以確保身體獲得所需營養。食任何營養補充品之前，應該先問醫護人員意見。",
+   "src": "衞生防護中心〈常見有關飲食的謬誤〉",
+   "url": "https://www.chp.gov.hk/tc/static/90044.html",
+   "level": "已證實",
+   "fact": "大部分人均衡飲食已經夠營養，唔使靠補充劑。",
+   "tags": [
+    "飲食",
+    "補充劑",
+    "維他命"
+   ]
+  },
+  {
+   "id": "h39",
+   "cat": "health",
+   "img": null,
+   "myth": "唔食早餐有助減肥。",
+   "impact": "早上餓到冇精神，之後容易食得更多，反而唔利控制體重。",
+   "truth": "衞生防護中心指出，早餐除咗提供每日所需營養，仲可以令人集中精神、提升工作表現。每日定時定量食三餐，再配合適量運動，反而有助維持理想體重。",
+   "src": "衞生防護中心〈常見有關飲食的謬誤〉",
+   "url": "https://www.chp.gov.hk/tc/static/90044.html",
+   "level": "已證實",
+   "fact": "衞生防護中心指出，定時定量食三餐反而有助維持理想體重。",
+   "tags": [
+    "飲食",
+    "早餐",
+    "減肥"
+   ]
+  },
+  {
+   "id": "h40",
+   "cat": "health",
+   "img": "vaccine",
+   "myth": "自然感染得返嚟嘅免疫力，一定好過打疫苗。",
+   "impact": "刻意唔打疫苗，等「自然感染」，結果要承受疾病本身嘅嚴重風險。",
+   "truth": "衞生防護中心指出，感染病毒本身嘅風險遠高過接種疫苗嘅風險。疫苗係同身體嘅天然防禦系統合作建立保護，估計每年挽救 200 萬至 300 萬人嘅性命。",
+   "src": "衞生防護中心〈認識疫苗是與非〉",
+   "url": "https://www.chp.gov.hk/files/pdf/understanding_vaccines_facts_and_myths_chi.pdf",
+   "level": "已證實",
+   "fact": "感染疾病本身嘅風險遠高過打疫苗。",
+   "tags": [
+    "疫苗",
+    "免疫"
+   ]
+  },
+  {
+   "id": "h41",
+   "cat": "health",
+   "img": "vaccine",
+   "myth": "打得太多疫苗，會削弱免疫系統。",
+   "impact": "家長因此延遲或者拒絕俾小朋友打針，令小朋友暴露喺可預防嘅疾病之下。",
+   "truth": "衞生防護中心指出，疫苗係利用身體嘅天然防禦機制，建立對特定感染嘅抵抗力，增強免疫系統，而唔係削弱佢。",
+   "src": "衞生防護中心〈認識疫苗是與非〉",
+   "url": "https://www.chp.gov.hk/files/pdf/understanding_vaccines_facts_and_myths_chi.pdf",
+   "level": "已證實",
+   "fact": "疫苗會增強對特定疾病嘅抵抗力，唔會削弱免疫系統。",
+   "tags": [
+    "疫苗",
+    "免疫",
+    "兒童"
+   ]
+  },
+  {
+   "id": "h42",
+   "cat": "health",
+   "img": "vaccine",
+   "myth": "打咗流感針，就唔會感染新冠。",
+   "impact": "以為打咗一種針就乜都防到，忽略咗其他需要嘅疫苗同防護。",
+   "truth": "衞生防護中心指出，流感疫苗同新冠疫苗係兩種唔同嘅疫苗，流感針唔可以預防感染新冠。不過打流感針可以避免同時感染流感同新冠，有助避免更嚴重嘅病情。",
+   "src": "衞生防護中心〈認識疫苗是與非〉",
+   "url": "https://www.chp.gov.hk/files/pdf/understanding_vaccines_facts_and_myths_chi.pdf",
+   "level": "已證實",
+   "fact": "流感疫苗唔可以預防新冠，兩者係唔同嘅疫苗。",
+   "tags": [
+    "疫苗",
+    "流感",
+    "新冠"
+   ]
+  },
+  {
+   "id": "k21",
+   "cat": "hk",
+   "img": "thunder",
+   "myth": "閃電先發生，雷聲之後先嚟，所以見到閃電好耐先聽到雷就冇危險。",
+   "impact": "低估雷暴距離，繼續喺戶外活動，增加被雷擊嘅風險。",
+   "truth": "天文台指出，閃電同打雷幾乎同一時間發生，只係光速快過聲速好多，所以先見閃電後聽雷聲。將閃光同雷聲之間嘅秒數除以 3，就係大約幾多公里遠。幾乎同時見到同聽到，就代表雷暴非常接近，要即刻搵地方躲避。",
+   "src": "香港天文台〈為什麼總是先閃電後打雷？〉",
+   "url": "https://www.hko.gov.hk/tc/education/weather/thunderstorm-and-lightning/00021-why-does-lightning-always-come-before-thunder.html",
+   "level": "已證實",
+   "fact": "閃電同打雷幾乎同時發生，秒數除以 3 就係大約幾多公里遠。",
+   "tags": [
+    "雷暴",
+    "閃電",
+    "天文台"
+   ]
+  },
+  {
+   "id": "k22",
+   "cat": "hk",
+   "img": "hktyphoon",
+   "myth": "網上流傳嘅「掛波時間表」係天文台俾貨櫃碼頭、航空公司嘅內部消息。",
+   "impact": "轉發假消息，令人錯誤安排返工返學同出行。",
+   "truth": "天文台指出，佢哋並冇為任何行業或者界別提供「掛波時間表」，唔好輕易相信網上同手機轉發嘅訊息。最新風暴消息要睇天文台網頁同「我的天文台」app。",
+   "src": "香港天文台〈真假颱風消息〉",
+   "url": "https://www.hko.gov.hk/tc/%E5%A4%A9%E6%B0%A3%E9%9A%A8%E7%AD%86/103103/%E7%9C%9F%E5%81%87%E9%A2%B1%E9%A2%A8%E6%B6%88%E6%81%AF",
+   "level": "已證實",
+   "fact": "天文台冇為任何行業提供「掛波時間表」。",
+   "tags": [
+    "颱風",
+    "謠言",
+    "天文台"
+   ]
+  },
+  {
+   "id": "k23",
+   "cat": "hk",
+   "img": "typhoon",
+   "myth": "颱風同颶風係兩種唔同嘅天氣現象。",
+   "impact": "睇外國新聞時誤會，以為颶風係另一種更犀利或者更弱嘅風暴。",
+   "truth": "天文台指出，兩者都係熱帶氣旋，只係喺唔同海洋有唔同叫法：北太平洋西部叫「颱風」，北大西洋同北太平洋中部及東部叫「颶風」，標準都係中心持續風速達每小時 118 公里或以上。",
+   "src": "香港天文台〈「颱風」與「颶風」〉",
+   "url": "https://www.hko.gov.hk/tc/education/tropical-cyclone/classification-naming-characteristics/00445-typhoon-and-hurricane.html",
+   "level": "已證實",
+   "fact": "颱風同颶風都係熱帶氣旋，只係地區叫法唔同。",
+   "tags": [
+    "颱風",
+    "天文台"
+   ]
+  },
+  {
+   "id": "h43",
+   "cat": "health",
+   "img": null,
+   "myth": "驅蚊劑只有含 DEET（避蚊胺）嘅先有效。",
+   "impact": "有人因為唔鍾意 DEET 就乜都唔搽，增加俾蚊叮、感染登革熱嘅風險。",
+   "truth": "衞生防護中心指出，世界衞生組織認可嘅驅蚊成分有三種：避蚊胺（DEET）、IR3535 同埃卡瑞丁（Icaridin，又叫派卡瑞丁 Picaridin）。用嘅時候要跟足標籤指示。",
+   "src": "衞生防護中心〈破解登革熱迷思〉",
+   "url": "https://www.chp.gov.hk/files/pdf/mythbreakerseries_df_03_chi.pdf",
+   "level": "已證實",
+   "fact": "DEET、IR3535 同埃卡瑞丁都係世衞認可嘅驅蚊成分。",
+   "tags": [
+    "登革熱",
+    "驅蚊",
+    "蚊"
+   ]
+  },
+  {
+   "id": "h44",
+   "cat": "health",
+   "img": null,
+   "myth": "患過一次登革熱就終身免疫，唔使再驚。",
+   "impact": "病好咗就唔再防蚊，第二次感染反而可能更嚴重。",
+   "truth": "衞生防護中心指出，登革熱病毒有四種血清型。病好咗只會對感染過嗰一型終身免疫，對其餘三型只有部分同短暫嘅免疫力；之後感染另一型，出現重症登革熱嘅機會更高。",
+   "src": "衞生防護中心〈登革熱〉",
+   "url": "https://www.chp.gov.hk/tc/healthtopics/content/24/19.html",
+   "level": "已證實",
+   "fact": "登革熱有四型，再感染另一型更容易出現重症。",
+   "tags": [
+    "登革熱",
+    "蚊",
+    "傳染"
+   ]
+  },
+  {
+   "id": "h45",
+   "cat": "health",
+   "img": null,
+   "myth": "登革熱會人傳人，同病人傾偈都會中。",
+   "impact": "病人被排斥，真正嘅預防重點（防蚊、清積水）反而冇做好。",
+   "truth": "衞生防護中心指出，登革熱係由帶病毒嘅雌性伊蚊叮咬傳染，唔會經人與人之間傳播（只有輕微機會經懷孕母親傳俾嬰兒）。預防重點係避免俾蚊叮同防止積水。",
+   "src": "衞生防護中心〈登革熱〉",
+   "url": "https://www.chp.gov.hk/tc/healthtopics/content/24/19.html",
+   "level": "已證實",
+   "fact": "登革熱靠伊蚊傳播，唔會人傳人。",
+   "tags": [
+    "登革熱",
+    "蚊",
+    "傳染"
+   ]
+  },
+  {
+   "id": "p28",
+   "cat": "mind",
+   "img": null,
+   "myth": "一定要瞓夠 8 個鐘先夠精神。",
+   "impact": "瞓唔夠 8 個鐘就焦慮，越擔心越瞓唔着。",
+   "truth": "社會福利署刊物指出，每個人需要嘅睡眠時間唔同，會因年齡、體質、身體狀況同習慣而異。如果瞓醒覺得精力恢復、頭腦清醒，就代表瞓夠，唔一定要 8 個鐘。",
+   "src": "社會福利署〈「一夜好眠」的迷思〉通訊",
+   "url": "https://www.swd.gov.hk/storage/asset/section/406/tc/Newsletter_5_24PP_e_version.pdf",
+   "level": "已證實",
+   "fact": "睡眠需要因人而異，瞓醒精神就代表瞓夠。",
+   "tags": [
+    "睡眠",
+    "失眠"
+   ]
+  },
+  {
+   "id": "p29",
+   "cat": "mind",
+   "img": "wine",
+   "myth": "瞓覺前飲杯酒，有助入睡。",
+   "impact": "靠酒精幫助入睡，結果半夜早醒、睡眠質素變差，仲可能形成依賴。",
+   "truth": "社會福利署刊物指出，酒精會引致早醒，加上有利尿作用，反而會干擾夜間睡眠。瞓覺前 4 至 6 個鐘應該避免咖啡因同酒精。",
+   "src": "社會福利署〈「一夜好眠」的迷思〉通訊",
+   "url": "https://www.swd.gov.hk/storage/asset/section/406/tc/Newsletter_5_24PP_e_version.pdf",
+   "level": "已證實",
+   "fact": "酒精會令人早醒，干擾夜間睡眠。",
+   "tags": [
+    "睡眠",
+    "飲酒",
+    "失眠"
+   ]
+  },
+  {
+   "id": "p30",
+   "cat": "mind",
+   "img": null,
+   "myth": "瞓覺前做運動，攰咗會易瞓啲。",
+   "impact": "臨瞓先做劇烈運動，身體仲處於興奮狀態，反而瞓唔着。",
+   "truth": "社會福利署刊物指出，運動會令身體處於警覺狀態，應該喺瞓覺前最少 3 至 6 個鐘做運動，等身體有足夠時間降溫。",
+   "src": "社會福利署〈「一夜好眠」的迷思〉通訊",
+   "url": "https://www.swd.gov.hk/storage/asset/section/406/tc/Newsletter_5_24PP_e_version.pdf",
+   "level": "已證實",
+   "fact": "運動最好喺瞓覺前最少 3 至 6 個鐘完成。",
+   "tags": [
+    "睡眠",
+    "運動"
+   ]
+  },
+  {
+   "id": "p31",
+   "cat": "mind",
+   "img": null,
+   "myth": "夜晚瞓得唔好，日頭瞓長午覺補返就得。",
+   "impact": "日頭瞓得多，夜晚更難入睡，形成失眠循環。",
+   "truth": "社會福利署刊物指出，偶然小睡冇問題，但長期靠午睡「補眠」會打亂睡眠時鐘，長遠對睡眠有負面影響。維持固定作息時間更重要。",
+   "src": "社會福利署〈「一夜好眠」的迷思〉通訊",
+   "url": "https://www.swd.gov.hk/storage/asset/section/406/tc/Newsletter_5_24PP_e_version.pdf",
+   "level": "已證實",
+   "fact": "長期午睡補眠會打亂睡眠時鐘。",
+   "tags": [
+    "睡眠",
+    "午睡",
+    "失眠"
+   ]
+  },
+  {
+   "id": "m21",
+   "cat": "money",
+   "img": "piggy",
+   "myth": "財務策劃係有錢人先需要嘅嘢。",
+   "impact": "收入一般嘅人覺得唔關事，冇預算、冇應急錢，一有意外就要借錢。",
+   "truth": "投資者及理財教育委員會指出，財務策劃並非富翁嘅專利，不論收入或者積蓄多少，每個人都可以從財務策劃中獲益，例如檢討開支、儲應急錢、規劃退休。",
+   "src": "投資者及理財教育委員會〈財務策劃〉小冊子",
+   "url": "https://www.ifec.org.hk/web/common/pdf/publication/tc/ifec-financial-planning-booklet-tc.pdf",
+   "level": "已證實",
+   "fact": "不論收入多少，每個人都可以從財務策劃中獲益。",
+   "tags": [
+    "理財",
+    "預算",
+    "應急錢"
+   ]
+  },
+  {
+   "id": "m22",
+   "cat": "money",
+   "img": "piggy",
+   "myth": "就快退休先開始諗財務策劃都唔遲。",
+   "impact": "遲咗開始，少咗好多年時間累積儲蓄同複息，退休時錢唔夠用。",
+   "truth": "投資者及理財教育委員會指出，愈早展開財務策劃就愈早得益，而且有更多時間累積儲蓄。財務策劃唔只係投資，仲包括信貸、稅務、保險、退休等各方面。",
+   "src": "投資者及理財教育委員會〈財務策劃〉小冊子",
+   "url": "https://www.ifec.org.hk/web/common/pdf/publication/tc/ifec-financial-planning-booklet-tc.pdf",
+   "level": "已證實",
+   "fact": "愈早開始財務策劃，就有愈多時間累積儲蓄。",
+   "tags": [
+    "理財",
+    "退休",
+    "複息"
+   ],
+   "app": "com.sorencheung.wealthpath",
+   "cta": "想睇吓早儲遲儲差幾遠？玩《富豪養成記》"
+  },
+  {
+   "id": "m23",
+   "cat": "money",
+   "img": "piggy",
+   "myth": "財務計劃做好一次，就可以一勞永逸。",
+   "impact": "人工、家庭、利率變咗都冇調整，計劃慢慢偏離目標而唔知。",
+   "truth": "投資者及理財教育委員會指出，財務策劃並非一次性嘅工作，應該定期審視同檢討財務計劃，並按需要調整目標，確保唔會偏離。",
+   "src": "投資者及理財教育委員會〈財務策劃〉小冊子",
+   "url": "https://www.ifec.org.hk/web/common/pdf/publication/tc/ifec-financial-planning-booklet-tc.pdf",
+   "level": "已證實",
+   "fact": "財務計劃要定期檢討，唔係做一次就算。",
+   "tags": [
+    "理財",
+    "預算"
+   ]
+  },
+  {
+   "id": "k24",
+   "cat": "hk",
+   "img": "typhoon",
+   "myth": "十號風球突然冇晒風，即係颱風走咗，可以出街。",
+   "impact": "以為風暴已過而離開有遮蔽嘅地方，風勢突然從另一個方向恢復，被吹倒或者被飛墮物擊中。",
+   "truth": "天文台指出，如果風眼直接掠過香港，風勢會停息幾分鐘至幾個鐘，但具破壞性嘅風力隨時會突然恢復，而且從另一個方向吹嚟。切勿離開有遮蔽嘅地方。",
+   "src": "香港天文台〈熱帶氣旋警告信號生效時應注意的事項〉",
+   "url": "https://www.hko.gov.hk/tc/informtc/precaution.htm",
+   "level": "已證實",
+   "fact": "風眼經過時風會停一陣，之後會從另一個方向突然恢復。",
+   "tags": [
+    "颱風",
+    "風眼",
+    "天文台"
+   ]
+  },
+  {
+   "id": "k25",
+   "cat": "hk",
+   "img": "typhoon",
+   "myth": "颱風開始遠離香港，即刻安全，可以出去睇風景。",
+   "impact": "強風仍然肆虐時外出，可能被吹倒、俾大浪捲走或者被飛墮物擊中。",
+   "truth": "天文台指出，即使颱風正逐步遠離香港，都唔應該放鬆戒備，因為強風可能仍然持續一段時間，應該留喺室內安全地方，直至風勢緩和。",
+   "src": "香港天文台〈熱帶氣旋警告信號生效時應注意的事項〉",
+   "url": "https://www.hko.gov.hk/tc/informtc/precaution.htm",
+   "level": "已證實",
+   "fact": "颱風遠離時強風仍可能持續，要留喺室內直至風勢緩和。",
+   "tags": [
+    "颱風",
+    "天文台",
+    "安全"
+   ]
+  },
+  {
+   "id": "k26",
+   "cat": "hk",
+   "img": "fridge",
+   "myth": "熟菜放入雪櫃隔夜，亞硝酸鹽會大增，食咗會致癌。",
+   "impact": "將好地地嘅剩菜掉晒，製造廚餘，甚至因為驚而少食蔬菜。",
+   "truth": "食物安全中心研究指出，熟菜喺雪櫃隔夜（24 小時）貯存，亞硝酸鹽含量唔會上升。重點係煮好 2 個鐘內放入雪櫃（攝氏 4 度或以下）、盡快食，翻熱至滾燙，同埋唔好翻熱多過一次。",
+   "src": "食物安全中心〈隔夜熟菜的硝酸鹽和亞硝酸鹽〉",
+   "url": "https://www.cfs.gov.hk/tc_chi/programme/programme_rafs/programme_rafs_fc_02_22.html",
+   "level": "已證實",
+   "fact": "熟菜喺雪櫃放 24 小時，亞硝酸鹽含量唔會上升。",
+   "tags": [
+    "食物安全",
+    "剩菜",
+    "雪櫃"
+   ],
+   "app": "hk.geichin.gei_chin",
+   "cta": "今晚煮咩先唔使剩？睇《今晚食咩》"
+  },
+  {
+   "id": "h46",
+   "cat": "health",
+   "img": null,
+   "myth": "早上出門搽一次防曬，就可以保護成日。",
+   "impact": "游水、流汗或者抹身之後防曬已經減弱，照樣曬傷，增加皮膚癌風險。",
+   "truth": "衞生防護中心建議，戶外活動揀 SPF 30 或以上、廣譜及防水嘅防曬產品並大量塗抹；長時間喺戶外，或者游水、流汗、用毛巾抹身之後，要每兩小時再塗一次。",
+   "src": "衞生防護中心〈紫外線不可不防〉",
+   "url": "https://www.chp.gov.hk/tc/static/90063.html",
+   "level": "已證實",
+   "fact": "防曬要每兩小時再塗，游水流汗後都要補。",
+   "tags": [
+    "防曬",
+    "紫外線",
+    "皮膚"
+   ]
+  }
+ ]
+}
